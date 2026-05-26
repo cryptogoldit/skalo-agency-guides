@@ -16,6 +16,58 @@ Ottimizzare il budget pubblicitario di una PMI non significa trovare la campagna
 
 ---
 
+## Checklist operativa: 32 azioni per smettere di bruciare budget
+
+Trentadue azioni concrete divise in cinque blocchi: tracciamento, landing page, scelta del canale, allocazione del budget, ottimizzazione settimanale. Se ne stai saltando più di dieci, il tuo problema non è il budget — è il sistema.
+
+**Tracciamento (fondazione)**
+1. **Installa Google Tag Manager su tutto il sito** — niente più hardcoding di pixel: aggiungere o togliere un tag richiede 5 minuti, non un deploy.
+2. **Configura GA4 con eventi conversione veri, non pageview** — submit form, click WhatsApp, click telefono, scroll 75%, video play. Sono questi che fanno decidere.
+3. **Installa Pixel Meta + Meta CAPI server-side** — Pixel client viene bloccato da iOS 14+ e ad-blocker. CAPI recupera il 30-50% di dati persi.
+4. **Verifica che nessun evento sia duplicato** (deduplica con event_id) — Pixel + CAPI senza event_id sparano lo stesso evento due volte: ROAS gonfiato artificialmente.
+5. **Implementa Enhanced Conversions su Google Ads** — hash email del lead inviato a Google: +5-15% di attribuzione, funziona anche con consenso cookies negato.
+6. **UTM consistenti su ogni link in campagna** — utm_source/medium/campaign/content/term sempre uniformi. Niente UTM = niente attribuzione affidabile.
+
+**Landing page**
+
+7. **Una landing dedicata per ogni angle di campagna** — mandare paid alla home è uno spreco. Ogni annuncio merita una landing che continua il suo copy.
+8. **Match perfetto fra titolo annuncio e H1 della landing** — se l'annuncio promette X e la landing parla di Y, bounce sale e CPC sale del 20-40%.
+9. **Form mobile-first, 3-5 campi massimo** — ogni campo in più taglia il conversion rate del 10%.
+10. **Una sola CTA per landing** — niente menù, niente link al blog, niente social. L'unica azione possibile è convertire.
+11. **Test velocità: LCP sotto 2.5s su 4G mobile** — sopra 2.5s, il 30% degli utenti se ne va prima di vedere la pagina.
+
+**Scelta canale**
+
+12. **Audit della domanda esistente prima di scegliere il canale** — Keyword Planner: se volume zero, Google Ads non funzionerà. Se alto, Meta è meno efficiente.
+13. **Parti con UN canale, non tre** — con 1.000-2.000€/mese non puoi diversificare. Concentra fino al ROAS positivo, poi valuta il secondo.
+14. **Brand search separato dalle keyword generiche** — campagna brand: budget basso, CPC basso, conversion altissimo. Mai mescolata.
+15. **Meta: tre livelli di pubblico (freddo, tiepido, caldo)** — Freddo: interessi + lookalike 1%. Tiepido: visitatori 30gg + engagement. Caldo: lista clienti + carrelli abbandonati.
+16. **Esclusioni IP per il tuo team e location irrilevanti** — il team che apre l'annuncio per controllarlo brucia clic.
+17. **Bid strategy giusta per la fase** — Maximize Conversions in apprendimento, tCPA dopo 30 conversioni. Sotto 30, tCPA blocca lo scaling.
+
+**Allocazione budget**
+
+18. **Allocazione 70/20/10: scaling / test / remarketing** — 70% sui pubblici che convertono già, 20% su nuovi test, 10% per restare visibile.
+19. **Daily cap rigido sui test (max 20€/giorno per ad set in fase di test)** — senza cap, un test che non funziona ti brucia 200€ prima che tu te ne accorga.
+20. **Mai più di 3-5 ad attivi per ad set** — l'algoritmo Meta concentra il budget sul migliore. 10 ad attivi dividono gli impression senza imparare nulla.
+21. **Refresh creatività ogni 7-14 giorni sui pubblici freddi** — frequency oltre 3x = ad fatigue, CPM sale, CTR scende.
+
+**Ottimizzazione settimanale**
+
+22. **Pausa automatica se CPL supera il target del 50% per 3 giorni** — regola scritta, non a sentimento. Definisci il target prima di lanciare.
+23. **Scaling massimo +20% di budget per settimana** — salti +100% resettano la fase di apprendimento di Meta.
+24. **Nessuna decisione di pausa o scaling il lunedì mattina** — i dati del weekend sono volatili. Aspetta martedì pomeriggio.
+25. **Revisione campagne ogni 7 giorni, non ogni 30** — l'algoritmo Meta cambia in giorni, non in mesi.
+26. **Report settimanale con 3 numeri + 3 azioni, niente PDF da 40 pagine** — spesa, conversioni, ROAS / cosa fermi, cosa scali, cosa testi. Tutto su una pagina.
+27. **Lead arricchiti automaticamente prima di andare al commerciale** — email + nome azienda → dati su dimensione, settore, sito, stack tech, social.
+28. **SLA commerciale: primo contatto entro 5 minuti dal submit** — il conversion rate di un lead contattato in 5 minuti è 8x rispetto a uno contattato dopo 24 ore (dati MIT/InsideSales).
+29. **Script di vendita per ogni fase della pipeline, non uno solo** — il commerciale che parla a un lead caldo ha bisogno di domande diverse rispetto a uno freddo.
+30. **Attribuzione last-click solo per la chiusura, multi-touch per ottimizzare** — last-click decide chi vince il merito. Multi-touch decide dove allocare il budget.
+31. **Annual review della stack pubblicitaria: ogni 12 mesi tagli un canale** — il meno efficiente va chiuso. Il budget liberato va al canale che cresce.
+32. **Dashboard interna che non dipende da agenzia esterna** — i dati devono essere tuoi. Se l'agenzia sparisce, non sparisca anche la cronologia di 3 anni di test.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il problema vero: non è il budget, è la dispersione](#il-problema-ottimizzare-budget-adv-problem)
 2. [La soluzione: La soluzione: sistemi, non campagne](#la-soluzione-ottimizzare-budget-adv-sol)
@@ -122,7 +174,7 @@ Abbiamo costruito l'Automated Lead Generation Engine come risposta diretta a que
 
 Il risultato: il commerciale smette di fare ricerca manuale e si concentra solo sulle conversazioni che hanno senso. Il tempo di qualifica si è ridotto dell'80%. Il tasso di chiusura è aumentato perché si lavora su lead che corrispondono davvero all'ICP.
 
-Tecnicamente, il sistema è costruito su Next.js per il frontend di gestione, con worker asincroni in Node.js per i job di scraping e arricchimento, e un database PostgreSQL per lo storage strutturato. L'export verso il CRM avviene tramite webhook o integrazione diretta con le API del sistema di destinazione.
+Lo stack è verificabile sul repo pubblico [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine): Next.js + React per la dashboard di gestione, Puppeteer con plugin stealth per lo scraping (per ridurre il blocco lato target site), OpenAI API per la qualificazione e l'arricchimento contestuale dei lead, Supabase come backend (database PostgreSQL gestito + auth + realtime). L'export verso il CRM avviene tramite webhook o integrazione diretta.
 
 ---
 
@@ -138,7 +190,7 @@ La parte di AI sales support genera automaticamente bozze di offerte commerciali
 
 Il tracciamento delle performance è integrato: ogni commerciale vede il proprio conversion rate per fase, il tempo medio di chiusura e il valore medio delle trattative vinte. Il management vede la pipeline aggregata e può identificare dove si perdono più opportunità.
 
-Tecnicamente: Next.js per il frontend con aggiornamenti real-time tramite WebSocket (la stessa architettura che abbiamo usato in altri progetti per garantire sincronizzazione istantanea tra utenti), Prisma ORM su PostgreSQL, autenticazione con NextAuth e generazione documenti tramite template engine con export PDF.
+Lo stack è verificabile su [skalo-crm](https://github.com/cryptogoldit/skalo-crm): Next.js + React per la web app, Supabase per database, auth e realtime (gli aggiornamenti di pipeline si propagano istantaneamente fra utenti senza dover gestire WebSocket a mano), i18next per la multilingua, jspdf per la generazione client-side delle offerte commerciali, modulo proprietario @skalo/model-pricing per il calcolo dei preventivi.
 
 Un'implementazione di questo sistema per una PMI oscilla tipicamente tra i 3.000€ e i 6.000€ una tantum, a seconda del numero di utenti, delle integrazioni richieste e della complessità della pipeline. Per una quotazione su misura, il modo migliore è parlarci direttamente.
 
@@ -217,7 +269,7 @@ Che tu abbia bisogno di ottimizzare campagne esistenti, costruire un sistema di 
 
 Richiedi una sessione di analisi gratuita. Nessun impegno, nessun template preconfezionato. Solo una conversazione onesta su dove sei, dove vuoi arrivare e cosa ha senso fare per arrivarci.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Se vuoi che facciamo l'audit della tua stack pubblicitaria con questa checklist alla mano — gratis, 30 minuti, senza pitch — scrivici a [info@skalo.agency](mailto:info@skalo.agency) o lascia un messaggio sul form di [Skalo.agency](https://skalo.agency/#contact). Ti rispondiamo nello stesso giorno lavorativo.
 
 ---
 
