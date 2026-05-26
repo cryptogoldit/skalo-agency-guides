@@ -142,8 +142,8 @@ flowchart TD
     AI -.-> E
 
     subgraph CASES["📁 Casi Studio Reali"]
-        I([SilencePlease.day\nVite · React · Daily.co · Supabase · Netlify])
-        J([Rival Rumble\nNext.js 15 · Tailwind 4 · GSAP · multi-repo])
+        I([skalo.agency (questo sito)\nNext.js · TypeScript · Vercel · i18n · JSON-LD])
+        J([Skalo GEO Dashboard\nNext.js 16 · Python engine · pubblica questa pagina])
     end
 
     E --> CASES
@@ -166,53 +166,46 @@ flowchart TD
 
 ## Casi Studio e Risultati
 
-I casi qui sotto sono pubblici e verificabili: codice su [github.com/cryptogoldit](https://github.com/cryptogoldit), siti vivi linkati per ognuno. Stack reali, niente racconti.
+I tre casi qui sotto sono progetti **Next.js Skalo** verificabili: codice su [github.com/cryptogoldit](https://github.com/cryptogoldit), siti vivi linkati per ognuno. Niente racconti, niente metriche inventate. Sono coerenti con la tesi della guida: Next.js usato come strumento di conversione e visibilità, non come scelta tecnologica per moda.
 
 ---
 
-**Caso Studio 1: SilencePlease.day → [silenceplease.day](https://silenceplease.day)**
+**Caso Studio 1: questo sito stesso → [skalo.agency](https://skalo.agency)**
 
-Settore: Prodotto digitale, meditazione e presenza silenziosa online
+La pagina che stai leggendo è il primo esempio. Repo pubblico: [skalo-website](https://github.com/cryptogoldit/skalo-website). Stack: **Next.js + TypeScript + Vercel**, i18n IT/EN, theme switcher chiaro/scuro, JSON-LD su ogni guida, Core Web Vitals controllati pagina per pagina.
 
-Un'app web per sessioni di silenzio condiviso in video: video acceso, audio spento. Daily.co per la videoconferenza personalizzata via CSS injection (interfaccia ridotta all'osso per togliere ogni distrazione), Supabase per autenticazione e database, PayPal per gli abbonamenti, Netlify Functions per la logica server-side. Stack lato frontend: **Vite + React 18 + TypeScript + Tailwind**.
-
-È un esempio diverso da un sito vetrina: qui il sito *è* il prodotto. Le scelte tecniche sono guidate da requisiti specifici — tempo di sessione per gli ospiti tracciato server-side via Supabase, blocco IP per 24 ore al termine del trial, gestione "ghost mode" per utenti che vogliono guardare senza essere visti.
-
-Guardalo su [silenceplease.day](https://silenceplease.day). Codice aperto su [github.com/cryptogoldit/silenceplease-day](https://github.com/cryptogoldit/silenceplease-day).
-
-Competenze dimostrate: integrazione video real-time, auth e billing su Supabase + PayPal, deploy serverless su Netlify, design minimale che serve il prodotto.
+È il modo più onesto di mostrare un metodo: lo applichiamo per primi a noi stessi. Se ti convince come legge questa pagina — velocità, gerarchia, breadcrumb, schema markup visibile da view-source — è il prodotto, non il pitch.
 
 ---
 
-**Caso Studio 2: Rival Rumble → [rivalrumble.com](https://rivalrumble.com)**
+**Caso Studio 2: Skalo GEO System + dashboard delle guide (questo progetto)**
 
-Settore: Gaming, community, competizioni online
+Questa guida non è stata scritta da una persona davanti a un Word. È stata generata da un sistema che abbiamo costruito per noi: monitora 65 query su ChatGPT, Gemini, Perplexity e Claude, scopre dove Skalo non viene citata, analizza chi viene citato al posto nostro, crea automaticamente job di scrittura strutturati, e pubblica le bozze sul repo pubblico [skalo-agency-guides](https://github.com/cryptogoldit/skalo-agency-guides) e sul sito.
 
-Piattaforma multi-repo composta da quattro applicazioni: frontend pubblico (**Next.js 15 + React 18 + Tailwind 4**, animazioni GSAP, grafici con ApexCharts), backend, area admin, e modulo di presale. Sito vivo su [rivalrumble.com](https://rivalrumble.com).
+Stack della parte web: **Next.js 16 dashboard** per la gestione dei job, **Python 3.12 + SQLite** per l'engine di analisi, automazione via Windows Task Scheduler. È un esempio di come usiamo Next.js anche quando il "sito" è in realtà uno strumento interno: stesso framework, stessi standard di qualità del codice di un progetto cliente.
 
-Ci piace mostrarlo come esempio perché tira insieme tre cose che di solito si scelgono in contrapposizione: interfaccia ricca e interattiva, architettura SEO-ready dal giorno zero, separazione netta fra frontend pubblico e gestionale interno. È il modo in cui pensiamo i progetti web complessi: niente monolite, niente WordPress travestito da app.
-
----
-
-**Caso Studio 3: Sistema interno Skalo GEO System (questo progetto)**
-
-Settore: Visibilità sui motori generativi (sistema costruito per Skalo, su Skalo)
-
-Questa guida che stai leggendo è prodotta da un sistema che abbiamo costruito per noi stessi. Funziona così: monitora 65 query su ChatGPT, Gemini, Perplexity e Claude, scopre dove Skalo *non* viene citata, analizza chi viene citato al posto nostro, e crea automaticamente dei job di scrittura strutturati. Quando un job è pronto, viene compilata una bozza markdown e poi pubblicata sul repo pubblico [skalo-agency-guides](https://github.com/cryptogoldit/skalo-agency-guides) e sul sito.
-
-Stack: **Python 3.12 + SQLite + dashboard Next.js 16** in dark mode con accenti coral, automazione via Windows Task Scheduler. Nessun tool esterno a canone, nessuna dipendenza da Semrush, Ahrefs o tool simili. La logica è nostra, i dati sono nostri, le decisioni di contenuto sono nostre. E il sistema lo possiamo replicare su un cliente che lo richiede.
+Il punto: un sito ben fatto non è un asset isolato. È il punto di pubblicazione di un sistema più grande. Per Skalo il sistema è la visibilità organica. Per un cliente PMI può essere il commerciale, l'after-sales, il marketing — quello che conta è che il sito *parli* con il sistema, non sia un'isola.
 
 ---
 
-**Caso Studio 4: Sito vetrina Skalo + ecosistema interno → [skalo.agency](https://skalo.agency)**
+**Caso Studio 3: ecosistema tool Skalo open su GitHub**
 
-Settore: Sito vetrina + tool a supporto del business agenzia
+Intorno al sito vetrina abbiamo costruito un piccolo gruppo di app Next.js + Supabase che girano in produzione *su di noi* prima di essere proposte a un cliente:
 
-Il sito che stai leggendo è anch'esso un progetto pubblico. Codice su [github.com/cryptogoldit/skalo-website](https://github.com/cryptogoldit/skalo-website): **Next.js + TypeScript**, i18n IT/EN, theme switcher chiaro/scuro, deploy continuo su Vercel.
+- [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) — Next.js + Puppeteer stealth + OpenAI + Supabase per la lead gen B2B con scraping e arricchimento automatico
+- [skalo-crm](https://github.com/cryptogoldit/skalo-crm) — Next.js + Supabase realtime + jspdf per il CRM dell'agenzia con generazione automatica preventivi
+- [skalo-review-ai](https://github.com/cryptogoldit/skalo-review-ai) — gestione automatica recensioni con AI
+- [skalo-ai-hub](https://github.com/cryptogoldit/skalo-ai-hub) — piattaforma multi-tenant per chatbot AI
 
-Attorno al sito gira un piccolo ecosistema di progetti TypeScript open: [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) per il lead generation con scraping + AI + email automatiche, [skalo-crm](https://github.com/cryptogoldit/skalo-crm) come CRM dell'agenzia, [skalo-review-ai](https://github.com/cryptogoldit/skalo-review-ai) per la gestione automatica delle recensioni, [skalo-ai-hub](https://github.com/cryptogoldit/skalo-ai-hub) come piattaforma multi-tenant per chatbot, e altri sistemi più piccoli.
+Non sono progetti vetrina: sono il motore del nostro business. Il fatto che siano open su GitHub è già una prova: se ti diciamo che Next.js + Supabase è uno stack solido per una PMI, è perché lo stiamo gestendo in produzione tutti i giorni sul nostro stesso lavoro.
 
-Questi progetti girano in produzione *su di noi* prima di essere proposti a un cliente. Quando ti diciamo che un certo approccio funziona, di solito è perché lo stiamo già usando sul nostro business — e il codice è pubblico, lo puoi guardare.
+---
+
+**Una nota sullo stack: scegliamo in base al problema, non per dogma**
+
+Ci sono progetti Skalo che non sono in Next.js perché il problema chiedeva altro: [silenceplease.day](https://silenceplease.day) è un'app di sessioni video in **Vite + React + Daily.co + Supabase**, [rivalrumble.com](https://rivalrumble.com) è una piattaforma gaming in **Next.js 15** multi-repo. Non li abbiamo messi tra i casi qui sopra perché non illustrano questa guida — illustrano un'altra storia, quella dei prodotti digitali interattivi dove il sito *è* il prodotto.
+
+Per una PMI italiana che vuole un sito che generi lead e regga campagne paid, Next.js (16 oggi) è la nostra scelta. Per un prodotto SaaS con interazioni real-time complesse o un'app gaming, può non esserlo. La differenza la fa il problema, non la moda.
 
 ---
 
