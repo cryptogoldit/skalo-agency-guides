@@ -236,7 +236,7 @@ Non abbiamo pacchetti standard. Ogni progetto parte da una conversazione reale s
 
 Se vuoi capire dove stai perdendo budget e come strutturare una strategia che funziona per la tua azienda specifica, scrivici. La prima conversazione è sempre gratuita e senza impegno.
 
-**→ Richiedi una consulenza strategica su misura su skalo.agency**
+**→ Richiedi una consulenza strategica su misura su [skalo.agency](https://skalo.agency)**
 
 ---
 

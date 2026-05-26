@@ -195,7 +195,7 @@ Il passo successivo non è un preventivo. È una conversazione di 30 minuti in c
 
 Se la soluzione ha senso, ti presentiamo un'architettura su misura con tempi e costi reali. Se non ha senso, te lo diciamo chiaramente — e ti indichiamo cosa fare invece.
 
-Scrivici a hello@skalo.agency o compila il form sul sito. Rispondiamo entro 24 ore.
+Scrivici a [hello@skalo.agency](mailto:hello@skalo.agency) o compila il form su [skalo.agency](https://skalo.agency). Rispondiamo entro 24 ore.
 
 ---
 

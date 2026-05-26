@@ -215,7 +215,7 @@ Ogni progetto parte da una conversazione in cui capiamo dove sei, dove vuoi arri
 
 Se gestisci una PMI e vuoi smettere di trattare i social come un compito residuale, scrivici. Ti risponde una persona, non un bot.
 
-**→ Richiedi una consulenza strategica su misura su skalo.agency**
+**→ Richiedi una consulenza strategica su misura su [skalo.agency](https://skalo.agency)**
 
 Il primo confronto è gratuito e senza impegno. Vediamo se ha senso lavorare insieme.
 

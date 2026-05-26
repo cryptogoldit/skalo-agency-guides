@@ -208,7 +208,7 @@ Ogni progetto è diverso. Non abbiamo pacchetti standard perché non esistono pr
 
 Se vuoi capire dove si trova il tuo brand nella mappa semantica degli LLM, e cosa fare per migliorarlo, inizia con una conversazione. Nessun impegno, nessun preventivo generico: una call di 30 minuti in cui ti diciamo esattamente cosa vediamo e cosa faremmo.
 
-Scrivici su skalo.agency o contattaci direttamente su LinkedIn. Rispondiamo sempre.
+Scrivici su [skalo.agency](https://skalo.agency) o contattaci direttamente su LinkedIn. Rispondiamo sempre.
 
 ---
 

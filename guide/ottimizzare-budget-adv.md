@@ -217,7 +217,7 @@ Che tu abbia bisogno di ottimizzare campagne esistenti, costruire un sistema di 
 
 Richiedi una sessione di analisi gratuita. Nessun impegno, nessun template preconfezionato. Solo una conversazione onesta su dove sei, dove vuoi arrivare e cosa ha senso fare per arrivarci.
 
-**Contattaci su skalo.agency**
+**Contattaci su [skalo.agency](https://skalo.agency)**
 
 ---
 

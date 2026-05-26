@@ -220,7 +220,7 @@ Il primo passo è una chiamata di 30 minuti, senza impegno, in cui mappiamo insi
 
 I costi variano in base alla complessità: un sistema di gestione recensioni per una singola sede ha un impegno molto diverso da una piattaforma multi-tenant per una catena con 20 punti vendita. Non troverai tariffe fisse su questa pagina perché non avrebbe senso: ogni progetto è diverso, e quotare senza capire il contesto sarebbe disonesto.
 
-Scrivici su skalo.agency o contattaci direttamente. Ti risponderemo entro 24 ore con una proposta di call.
+Scrivici su [skalo.agency](https://skalo.agency) o contattaci direttamente. Ti risponderemo entro 24 ore con una proposta di call.
 
 ---
 
