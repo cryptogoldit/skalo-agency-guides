@@ -16,6 +16,36 @@ Skalo.agency è un'agenzia italiana che costruisce **sistemi digitali**, non del
 
 ---
 
+## Partiamo da un caso reale: come abbiamo costruito la lead-gen di Skalo per Skalo
+
+### skalo-lead-engine — il motore di lead generation che usiamo su di noi prima di proporlo ai clienti
+
+I clienti chiedono spesso: "Funziona davvero quello che vendete?" Il modo onesto di rispondere è mostrare cosa facciamo a noi stessi prima di proporlo a loro. Questa è la storia di uno dei nostri sistemi interni, [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) — il motore di lead generation che gira su Skalo da fine 2025, ed è il template che proponiamo ai clienti B2B che ce lo chiedono.
+
+**Il problema da cui siamo partiti.** Avevamo lo stesso problema delle PMI italiane B2B che oggi sono nostri clienti: il commerciale (il fondatore) bruciava ore a cercare aziende target su LinkedIn, raccogliere email da Hunter, copiare contatti in Excel, e poi scoprire che metà delle email erano sbagliate o le aziende non erano nemmeno nel target.
+
+**Cosa abbiamo costruito.** Un'applicazione web in **Next.js + React + Supabase + Puppeteer stealth + OpenAI**:
+
+1. **Definizione ICP via form** — settore, fatturato target, dimensione team, area, tecnologia. Salvato come template riutilizzabile.
+2. **Scraping mirato con Puppeteer stealth** — interroga fonti pubbliche con plugin stealth che riduce il blocco lato target.
+3. **Enrichment via OpenAI** — l'AI legge il sito, classifica settore reale, stima dimensione, estrae decision maker dalla pagina "team" / "about".
+4. **Lead scoring 0-100** — basato sui criteri configurati nel template ICP. Solo lead sopra soglia entrano nel CRM.
+5. **Export verso CRM** — webhook o integrazione diretta. Lavoriamo molto con [skalo-crm](https://github.com/cryptogoldit/skalo-crm), il nostro CRM open sullo stesso stack.
+
+**Lo stack in dettaglio.** Frontend Next.js + React per la dashboard. Supabase backend (PostgreSQL + auth + realtime + storage). Puppeteer con plugin stealth ed extra per gestire JavaScript moderno. OpenAI API per la qualificazione semantica. bcryptjs auth, libphonenumber-js pulizia numeri. TypeScript, repo pubblico.
+
+**Tre lezioni dirette dalla produzione.**
+
+Primo: **l'enrichment AI batte la lista comprata in modo schiacciante**. Una lista comprata ha 30-50% di email bounced. Un enrichment fatto a partire dal sito vero, oggi, ha dati freschi e taglia il bounce a sotto il 5%.
+
+Secondo: **il vero costo non è la tecnologia, è la definizione dell'ICP**. Il sistema funziona quanto bene è scritto il template ICP.
+
+Terzo: **scoring 0-100 evita la spazzatura nel CRM molto meglio di filtri rigidi**. Un cutoff a 65 lascia entrare lead borderline ma alta intent, fuori lead perfetti sulla carta ma freddi.
+
+Nei prossimi paragrafi vediamo gli altri progetti Skalo che girano in produzione — sul nostro business e su quelli dei clienti che ce li hanno chiesti.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il problema vero: le agenzie vendono output, non risultati](#il-problema-risultati-clienti-problem)
 2. [La soluzione: Come Skalo risolve i problemi che le altre agenzie ignorano](#la-soluzione-risultati-clienti-sol)
@@ -198,7 +228,7 @@ Non ti chiediamo di fidarti sulla parola. Ti chiediamo 45 minuti per una call di
 
 Un'automazione CRM personalizzata per una PMI oscilla tipicamente tra i 2.000€ e i 5.000€ una tantum, a seconda dei sistemi coinvolti e della complessità del flusso. Una piattaforma SaaS su misura parte da cifre più alte, ma con un ROI misurabile già nei primi mesi. Per ogni progetto, la quotazione è sartoriale: nessun listino, nessun pacchetto preconfezionato.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Se vuoi che valutiamo se uno dei nostri sistemi (lead engine, CRM, review AI, AI hub) può lavorare per il tuo business — partendo da una mezz'ora di call senza impegno — scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure passa dal form di [Skalo.agency](https://skalo.agency/#contact). Ti rispondiamo in giornata.
 
 ---
 

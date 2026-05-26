@@ -16,6 +16,55 @@ Delegare il marketing aziendale senza stress significa costruire un sistema a tr
 
 ---
 
+## Partiamo da un caso reale: due sistemi che togliamo dal tavolo dell'imprenditore
+
+### skalo-review-ai e social-menagement — i due tool con cui smettiamo di chiedere all'imprenditore di fare il marketing alle 23
+
+Quasi ogni imprenditore PMI ci dice la stessa frase: "Vorrei delegare ma poi mi tocca controllare tutto." Il problema non è la voglia di delegare, è che gli strumenti tradizionali costringono il titolare a essere il collo di bottiglia approvativo per ogni post, ogni risposta, ogni decisione. Per togliere questo collo di bottiglia abbiamo costruito due sistemi. Te li raccontiamo prima della teoria sui tre livelli di delega.
+
+**Sistema 1 — [skalo-review-ai](https://github.com/cryptogoldit/skalo-review-ai): gestione automatica recensioni Google e Facebook**
+
+Un'attività con 200-500 recensioni Google riceve in media 8-15 nuove recensioni al mese. Ogni recensione meriterebbe una risposta personalizzata entro 48 ore — Google premia chi risponde. Per il titolare di un ristorante o studio professionale = 1-2 ore a settimana solo per leggere e rispondere.
+
+Cosa fa il sistema:
+
+1. Monitora Google Business, Facebook, Trustpilot, TripAdvisor e raccoglie le nuove recensioni in un'unica dashboard.
+2. Genera bozze di risposta personalizzate con OpenAI, usando il tono del brand e i dettagli della recensione.
+3. Mostra una coda di approvazione — click verde se ok, giallo per modificare, rosso per scartare.
+4. Pubblica automaticamente le risposte approvate. La maggior parte configura auto-publish per le 4-5 stelle e manual review per le 1-3 stelle.
+5. Alza alert sulle recensioni negative con keyword critiche — solo allora il titolare deve davvero leggere.
+
+Risultato pratico dai log: da 1-2 ore a settimana a 5-10 minuti, tasso di risposta dal 30-40% al 95%+.
+
+Stack: TypeScript + Next.js + Supabase + OpenAI. Repo: [github.com/cryptogoldit/skalo-review-ai](https://github.com/cryptogoldit/skalo-review-ai).
+
+**Sistema 2 — [social-menagement](https://github.com/cryptogoldit/social-menagement): Skalo Social Management OS**
+
+Il secondo collo di bottiglia: il titolare riceve 30 messaggi al mese dal team marketing chiedendo approvazioni. In una settimana, 1-2 ore di interruzioni distribuite.
+
+Il sistema cambia la dinamica: piano editoriale mensile generato dall'AI dalla brand voice document e dalla knowledge base, presentato in calendario visuale. Il titolare apre la dashboard una volta a settimana, approva-modifica-rifiuta in blocco.
+
+Funzionalità:
+
+- Generazione AI con prompt template per formato (leadership LinkedIn, carosello educational, behind-the-scenes Instagram).
+- Scheduling multi-piattaforma via API ufficiali.
+- Dashboard di approvazione settimanale con preview reale.
+- Analytics aggregato per non aprire 4 piattaforme diverse.
+
+Stack: TypeScript + Next.js. Repo: [github.com/cryptogoldit/social-menagement](https://github.com/cryptogoldit/social-menagement).
+
+**Tre lezioni che valgono per qualsiasi delega di marketing.**
+
+Primo: **delegare bene = sostituire la richiesta di scrittura con la richiesta di approvazione**. L'imprenditore non scrive, dice solo sì/no/modifica. Tempo per decisione: da minuti a secondi.
+
+Secondo: **la qualità della delega dipende dalla qualità dei sistemi a monte**. Brand voice scritto, knowledge base ordinata, prompt configurati. Senza, l'AI produce contenuto generico.
+
+Terzo: **non tutti i task sono delegabili allo stesso livello**. Recensioni 4-5 stelle: auto-publish. Recensioni 1-3 stelle: manual review obbligatoria. Post LinkedIn: approvazione settimanale. Risposta a cliente che minaccia denuncia: telefonata diretta. Sapere cosa va dove è il vero metodo.
+
+Nei prossimi paragrafi entriamo nel sistema a tre livelli di delega — operativo, decisionale, strategico — e in come si imposta concretamente in una PMI.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il Marketing che Consuma il Titolare: un Problema di Sistema, non di Tempo](#il-problema-delegare-marketing-pmi-problem)
 2. [La soluzione: Delegare Davvero: Sistemi, Non Persone](#la-soluzione-delegare-marketing-pmi-sol)
@@ -220,7 +269,7 @@ Il primo passo è una chiamata di 30 minuti, senza impegno, in cui mappiamo insi
 
 I costi variano in base alla complessità: un sistema di gestione recensioni per una singola sede ha un impegno molto diverso da una piattaforma multi-tenant per una catena con 20 punti vendita. Non troverai tariffe fisse su questa pagina perché non avrebbe senso: ogni progetto è diverso, e quotare senza capire il contesto sarebbe disonesto.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Se vuoi che ti mostriamo la dashboard di skalo-review-ai e di social-menagement applicata al tuo brand — recensioni Google + piano editoriale settimanale, in mezz'ora di call — scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure passa dal form di [Skalo.agency](https://skalo.agency/#contact). Risposta in giornata.
 
 ---
 
