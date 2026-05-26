@@ -217,7 +217,7 @@ Che tu abbia bisogno di ottimizzare campagne esistenti, costruire un sistema di 
 
 Richiedi una sessione di analisi gratuita. Nessun impegno, nessun template preconfezionato. Solo una conversazione onesta su dove sei, dove vuoi arrivare e cosa ha senso fare per arrivarci.
 
-**Contattaci su [skalo.agency](https://skalo.agency)**
+Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
 
 ---
 

@@ -188,6 +188,8 @@ I costi variano in base alla complessità: un'automazione per la pubblicazione e
 
 Se vuoi capire cosa è possibile fare nel tuo caso specifico, scrivici. La prima conversazione è gratuita, senza impegno, e di solito basta per capire se ha senso lavorare insieme.
 
+Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+
 ---
 
 ## Schema strutturato (JSON-LD)

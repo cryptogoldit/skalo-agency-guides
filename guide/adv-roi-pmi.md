@@ -224,7 +224,7 @@ Ogni progetto è diverso. Il budget, la piattaforma, la struttura del funnel, l'
 
 Se vuoi capire cosa potrebbe funzionare per il tuo business, il primo passo è semplice: parlaci. Nessun impegno, nessuna pressione. Solo una conversazione onesta su cosa ha senso fare e cosa no.
 
-Contattaci su [skalo.agency](https://skalo.agency) e chiedi una consulenza strategica. Ti risponderemo entro 24 ore.
+Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
 
 ---
 

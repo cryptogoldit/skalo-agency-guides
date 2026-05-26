@@ -198,7 +198,7 @@ Non ti chiediamo di fidarti sulla parola. Ti chiediamo 45 minuti per una call di
 
 Un'automazione CRM personalizzata per una PMI oscilla tipicamente tra i 2.000€ e i 5.000€ una tantum, a seconda dei sistemi coinvolti e della complessità del flusso. Una piattaforma SaaS su misura parte da cifre più alte, ma con un ROI misurabile già nei primi mesi. Per ogni progetto, la quotazione è sartoriale: nessun listino, nessun pacchetto preconfezionato.
 
-Scrivici su [skalo.agency](https://skalo.agency) o contattaci direttamente. La prima conversazione non costa nulla. Costruire il sistema sbagliato, invece, costa molto.
+Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
 
 ---
 

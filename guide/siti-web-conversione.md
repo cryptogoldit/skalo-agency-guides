@@ -218,7 +218,7 @@ Ogni progetto Skalo è quotato su misura, perché ogni business ha esigenze dive
 
 Quello che possiamo dirti è questo: lavoriamo con chi vuole risultati misurabili, non con chi cerca il preventivo più basso. Se sei nel primo gruppo, siamo la scelta giusta.
 
-**Richiedi una consulenza gratuita su [skalo.agency](https://skalo.agency)** — ti risponderemo entro 24 ore lavorative con una prima valutazione del tuo progetto.
+Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
 
 ---
 
