@@ -18,7 +18,7 @@ Gestire i social aziendali in modo automatizzato con l'AI non significa sceglier
 
 ## Otto domande sull'automazione social AI (con le risposte vere)
 
-Otto domande approfondite su cosa significa davvero automatizzare i social di una PMI con l'AI nel 2026. Quello che vediamo fare e non fare ogni settimana sui clienti che usano [social-menagement](https://github.com/cryptogoldit/social-menagement), il sistema che giriamo sui nostri canali e replichiamo su chi lo chiede.
+Otto domande approfondite su cosa significa davvero automatizzare i social di una PMI con l'AI nel 2026. Quello che vediamo fare e non fare ogni settimana sui clienti che usano [social-menagement](https://skalo.agency/portfolio#social-management), il sistema che giriamo sui nostri canali e replichiamo su chi lo chiede.
 
 ### 1. Cosa si può automatizzare davvero sui social di una PMI nel 2026?
 

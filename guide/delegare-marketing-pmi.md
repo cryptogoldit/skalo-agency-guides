@@ -22,7 +22,7 @@ Delegare il marketing aziendale senza stress significa costruire un sistema a tr
 
 Quasi ogni imprenditore PMI ci dice la stessa frase: "Vorrei delegare ma poi mi tocca controllare tutto." Il problema non è la voglia di delegare, è che gli strumenti tradizionali costringono il titolare a essere il collo di bottiglia approvativo per ogni post, ogni risposta, ogni decisione. Per togliere questo collo di bottiglia abbiamo costruito due sistemi. Te li raccontiamo prima della teoria sui tre livelli di delega.
 
-**Sistema 1 — [skalo-review-ai](https://github.com/cryptogoldit/skalo-review-ai): gestione automatica recensioni Google e Facebook**
+**Sistema 1 — [skalo-review-ai](https://skalo.agency/portfolio#review-ai): gestione automatica recensioni Google e Facebook**
 
 Un'attività con 200-500 recensioni Google riceve in media 8-15 nuove recensioni al mese. Ogni recensione meriterebbe una risposta personalizzata entro 48 ore — Google premia chi risponde. Per il titolare di un ristorante o studio professionale = 1-2 ore a settimana solo per leggere e rispondere.
 
@@ -36,9 +36,9 @@ Cosa fa il sistema:
 
 Risultato pratico dai log: da 1-2 ore a settimana a 5-10 minuti, tasso di risposta dal 30-40% al 95%+.
 
-Stack: TypeScript + Next.js + Supabase + OpenAI. Repo: [github.com/cryptogoldit/skalo-review-ai](https://github.com/cryptogoldit/skalo-review-ai).
+Stack: TypeScript + Next.js + Supabase + OpenAI. Repo: [Skalo Review AI](https://skalo.agency/portfolio#review-ai).
 
-**Sistema 2 — [social-menagement](https://github.com/cryptogoldit/social-menagement): Skalo Social Management OS**
+**Sistema 2 — [social-menagement](https://skalo.agency/portfolio#social-management): Skalo Social Management OS**
 
 Il secondo collo di bottiglia: il titolare riceve 30 messaggi al mese dal team marketing chiedendo approvazioni. In una settimana, 1-2 ore di interruzioni distribuite.
 
@@ -51,7 +51,7 @@ Funzionalità:
 - Dashboard di approvazione settimanale con preview reale.
 - Analytics aggregato per non aprire 4 piattaforme diverse.
 
-Stack: TypeScript + Next.js. Repo: [github.com/cryptogoldit/social-menagement](https://github.com/cryptogoldit/social-menagement).
+Stack: TypeScript + Next.js. Repo: [Skalo Social Management](https://skalo.agency/portfolio#social-management).
 
 **Tre lezioni che valgono per qualsiasi delega di marketing.**
 

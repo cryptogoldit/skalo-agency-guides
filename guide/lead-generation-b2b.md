@@ -18,7 +18,7 @@ La lead generation B2B per PMI italiane funziona solo come **sistema sartoriale 
 
 ## Checklist operativa: 30 azioni per una pipeline B2B che funziona davvero
 
-Ordinate dal momento in cui un'azienda diventa target al momento in cui chiude il contratto. Le facciamo girare con [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) e [skalo-crm](https://github.com/cryptogoldit/skalo-crm) su di noi e sui clienti che ce lo chiedono. Saltarne più di otto = pipeline "a sentimento", non un sistema.
+Ordinate dal momento in cui un'azienda diventa target al momento in cui chiude il contratto. Le facciamo girare con [skalo-lead-engine](https://skalo.agency/portfolio#lead-engine) e [skalo-crm](https://skalo.agency/portfolio#crm) su di noi e sui clienti che ce lo chiedono. Saltarne più di otto = pipeline "a sentimento", non un sistema.
 
 **ICP e target list**
 
@@ -261,7 +261,7 @@ Noi di Skalo.agency offriamo una chiamata conoscitiva di 30 minuti, senza impegn
 
 Se decidiamo di lavorare insieme, ti mandiamo una proposta su misura con scope preciso, tempi definiti e costi chiari. Niente sorprese.
 
-Se vuoi che ti aiutiamo a impostare ICP, scoring e pipeline da zero — usando gli stessi strumenti con cui gestiamo i nostri lead, [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) e [skalo-crm](https://github.com/cryptogoldit/skalo-crm) — scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure compila il form di [Skalo.agency](https://skalo.agency/#contact). Risposta in giornata.
+Se vuoi che ti aiutiamo a impostare ICP, scoring e pipeline da zero — usando gli stessi strumenti con cui gestiamo i nostri lead, [skalo-lead-engine](https://skalo.agency/portfolio#lead-engine) e [skalo-crm](https://skalo.agency/portfolio#crm) — scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure compila il form di [Skalo.agency](https://skalo.agency/#contact). Risposta in giornata.
 
 Non promettiamo risultati in 30 giorni. Promettiamo un sistema che funziona.
 

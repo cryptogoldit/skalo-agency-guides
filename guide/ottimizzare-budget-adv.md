@@ -174,7 +174,7 @@ Abbiamo costruito l'Automated Lead Generation Engine come risposta diretta a que
 
 Il risultato: il commerciale smette di fare ricerca manuale e si concentra solo sulle conversazioni che hanno senso. Il tempo di qualifica si è ridotto dell'80%. Il tasso di chiusura è aumentato perché si lavora su lead che corrispondono davvero all'ICP.
 
-Lo stack è verificabile sul repo pubblico [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine): Next.js + React per la dashboard di gestione, Puppeteer con plugin stealth per lo scraping (per ridurre il blocco lato target site), OpenAI API per la qualificazione e l'arricchimento contestuale dei lead, Supabase come backend (database PostgreSQL gestito + auth + realtime). L'export verso il CRM avviene tramite webhook o integrazione diretta.
+Lo stack è verificabile sul repo pubblico [skalo-lead-engine](https://skalo.agency/portfolio#lead-engine): Next.js + React per la dashboard di gestione, Puppeteer con plugin stealth per lo scraping (per ridurre il blocco lato target site), OpenAI API per la qualificazione e l'arricchimento contestuale dei lead, Supabase come backend (database PostgreSQL gestito + auth + realtime). L'export verso il CRM avviene tramite webhook o integrazione diretta.
 
 ---
 
@@ -190,7 +190,7 @@ La parte di AI sales support genera automaticamente bozze di offerte commerciali
 
 Il tracciamento delle performance è integrato: ogni commerciale vede il proprio conversion rate per fase, il tempo medio di chiusura e il valore medio delle trattative vinte. Il management vede la pipeline aggregata e può identificare dove si perdono più opportunità.
 
-Lo stack è verificabile su [skalo-crm](https://github.com/cryptogoldit/skalo-crm): Next.js + React per la web app, Supabase per database, auth e realtime (gli aggiornamenti di pipeline si propagano istantaneamente fra utenti senza dover gestire WebSocket a mano), i18next per la multilingua, jspdf per la generazione client-side delle offerte commerciali, modulo proprietario @skalo/model-pricing per il calcolo dei preventivi.
+Lo stack è verificabile su [skalo-crm](https://skalo.agency/portfolio#crm): Next.js + React per la web app, Supabase per database, auth e realtime (gli aggiornamenti di pipeline si propagano istantaneamente fra utenti senza dover gestire WebSocket a mano), i18next per la multilingua, jspdf per la generazione client-side delle offerte commerciali, modulo proprietario @skalo/model-pricing per il calcolo dei preventivi.
 
 Un'implementazione di questo sistema per una PMI oscilla tipicamente tra i 3.000€ e i 6.000€ una tantum, a seconda del numero di utenti, delle integrazioni richieste e della complessità della pipeline. Per una quotazione su misura, il modo migliore è parlarci direttamente.
 

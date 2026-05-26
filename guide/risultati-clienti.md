@@ -20,7 +20,7 @@ Skalo.agency è un'agenzia italiana che costruisce **sistemi digitali**, non del
 
 ### skalo-lead-engine — il motore di lead generation che usiamo su di noi prima di proporlo ai clienti
 
-I clienti chiedono spesso: "Funziona davvero quello che vendete?" Il modo onesto di rispondere è mostrare cosa facciamo a noi stessi prima di proporlo a loro. Questa è la storia di uno dei nostri sistemi interni, [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) — il motore di lead generation che gira su Skalo da fine 2025, ed è il template che proponiamo ai clienti B2B che ce lo chiedono.
+I clienti chiedono spesso: "Funziona davvero quello che vendete?" Il modo onesto di rispondere è mostrare cosa facciamo a noi stessi prima di proporlo a loro. Questa è la storia di uno dei nostri sistemi interni, [skalo-lead-engine](https://skalo.agency/portfolio#lead-engine) — il motore di lead generation che gira su Skalo da fine 2025, ed è il template che proponiamo ai clienti B2B che ce lo chiedono.
 
 **Il problema da cui siamo partiti.** Avevamo lo stesso problema delle PMI italiane B2B che oggi sono nostri clienti: il commerciale (il fondatore) bruciava ore a cercare aziende target su LinkedIn, raccogliere email da Hunter, copiare contatti in Excel, e poi scoprire che metà delle email erano sbagliate o le aziende non erano nemmeno nel target.
 
@@ -30,7 +30,7 @@ I clienti chiedono spesso: "Funziona davvero quello che vendete?" Il modo onesto
 2. **Scraping mirato con Puppeteer stealth** — interroga fonti pubbliche con plugin stealth che riduce il blocco lato target.
 3. **Enrichment via OpenAI** — l'AI legge il sito, classifica settore reale, stima dimensione, estrae decision maker dalla pagina "team" / "about".
 4. **Lead scoring 0-100** — basato sui criteri configurati nel template ICP. Solo lead sopra soglia entrano nel CRM.
-5. **Export verso CRM** — webhook o integrazione diretta. Lavoriamo molto con [skalo-crm](https://github.com/cryptogoldit/skalo-crm), il nostro CRM open sullo stesso stack.
+5. **Export verso CRM** — webhook o integrazione diretta. Lavoriamo molto con [skalo-crm](https://skalo.agency/portfolio#crm), il nostro CRM open sullo stesso stack.
 
 **Lo stack in dettaglio.** Frontend Next.js + React per la dashboard. Supabase backend (PostgreSQL + auth + realtime + storage). Puppeteer con plugin stealth ed extra per gestire JavaScript moderno. OpenAI API per la qualificazione semantica. bcryptjs auth, libphonenumber-js pulizia numeri. TypeScript, repo pubblico.
 

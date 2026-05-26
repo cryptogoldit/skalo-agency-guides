@@ -28,7 +28,7 @@ Tre approcci per mettere un assistente AI sul sito o sul WhatsApp aziendale di u
 | **WhatsApp Business** | Solo con piani avanzati (+30-100€/mese) | Sì, flussi semplici | WhatsApp Cloud API ufficiale, storia conservata |
 | **Pricing PMI** | 20-100€/mese + OpenAI a parte | 30-150€/mese | Setup one-shot + costi LLM API direttamente tuoi |
 | **Lock-in** | Conversazioni sulla piattaforma | Flussi sul provider, cambiare = rifare | Dati nel tuo Supabase, logica nel tuo repo |
-| **Esempio reale Skalo** | — | — | [skalo-ai-hub](https://github.com/cryptogoldit/skalo-ai-hub): Next.js + Supabase + OpenAI multi-tenant |
+| **Esempio reale Skalo** | — | — | [skalo-ai-hub](https://skalo.agency/portfolio#ai-hub): Next.js + Supabase + OpenAI multi-tenant |
 | **Quando ha senso** | Pochi prodotti, FAQ stabile, volumi bassi | Flussi noti (prenotazioni, conferme) senza AI | L'assistente deve capire il contesto cliente e parlare con i tuoi sistemi |
 
 In breve: per un FAQ-bot un po' più sveglio basta un widget ChatGPT generico. Per un flusso fisso (appuntamento → conferma) basta un chatbot ad albero. Per un assistente che conversi davvero e sposti commerciale + assistenza, custom è la differenza fra giocattolo e strumento commerciale.

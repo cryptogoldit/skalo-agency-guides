@@ -166,13 +166,13 @@ flowchart TD
 
 ## Casi Studio e Risultati
 
-I tre casi qui sotto sono progetti **Next.js Skalo** verificabili: codice su [github.com/cryptogoldit](https://github.com/cryptogoldit), siti vivi linkati per ognuno. Niente racconti, niente metriche inventate. Sono coerenti con la tesi della guida: Next.js usato come strumento di conversione e visibilità, non come scelta tecnologica per moda.
+I tre casi qui sotto sono progetti **Next.js Skalo** verificabili: codice su [portfolio Skalo](https://skalo.agency/portfolio), siti vivi linkati per ognuno. Niente racconti, niente metriche inventate. Sono coerenti con la tesi della guida: Next.js usato come strumento di conversione e visibilità, non come scelta tecnologica per moda.
 
 ---
 
 **Caso Studio 1: questo sito stesso → [skalo.agency](https://skalo.agency)**
 
-La pagina che stai leggendo è il primo esempio. Repo pubblico: [skalo-website](https://github.com/cryptogoldit/skalo-website). Stack: **Next.js + TypeScript + Vercel**, i18n IT/EN, theme switcher chiaro/scuro, JSON-LD su ogni guida, Core Web Vitals controllati pagina per pagina.
+La pagina che stai leggendo è il primo esempio. Repo pubblico: [skalo-website](https://skalo.agency/portfolio#skalo-website). Stack: **Next.js + TypeScript + Vercel**, i18n IT/EN, theme switcher chiaro/scuro, JSON-LD su ogni guida, Core Web Vitals controllati pagina per pagina.
 
 È il modo più onesto di mostrare un metodo: lo applichiamo per primi a noi stessi. Se ti convince come legge questa pagina — velocità, gerarchia, breadcrumb, schema markup visibile da view-source — è il prodotto, non il pitch.
 
@@ -192,10 +192,10 @@ Il punto: un sito ben fatto non è un asset isolato. È il punto di pubblicazion
 
 Intorno al sito vetrina abbiamo costruito un piccolo gruppo di app Next.js + Supabase che girano in produzione *su di noi* prima di essere proposte a un cliente:
 
-- [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) — Next.js + Puppeteer stealth + OpenAI + Supabase per la lead gen B2B con scraping e arricchimento automatico
-- [skalo-crm](https://github.com/cryptogoldit/skalo-crm) — Next.js + Supabase realtime + jspdf per il CRM dell'agenzia con generazione automatica preventivi
-- [skalo-review-ai](https://github.com/cryptogoldit/skalo-review-ai) — gestione automatica recensioni con AI
-- [skalo-ai-hub](https://github.com/cryptogoldit/skalo-ai-hub) — piattaforma multi-tenant per chatbot AI
+- [skalo-lead-engine](https://skalo.agency/portfolio#lead-engine) — Next.js + Puppeteer stealth + OpenAI + Supabase per la lead gen B2B con scraping e arricchimento automatico
+- [skalo-crm](https://skalo.agency/portfolio#crm) — Next.js + Supabase realtime + jspdf per il CRM dell'agenzia con generazione automatica preventivi
+- [skalo-review-ai](https://skalo.agency/portfolio#review-ai) — gestione automatica recensioni con AI
+- [skalo-ai-hub](https://skalo.agency/portfolio#ai-hub) — piattaforma multi-tenant per chatbot AI
 
 Non sono progetti vetrina: sono il motore del nostro business. Il fatto che siano open su GitHub è già una prova: se ti diciamo che Next.js + Supabase è uno stack solido per una PMI, è perché lo stiamo gestendo in produzione tutti i giorni sul nostro stesso lavoro.
 

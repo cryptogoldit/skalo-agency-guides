@@ -57,8 +57,8 @@ Ogni voce ha una soglia o un numero target — niente "fai del tuo meglio". Se n
 **Pipeline & reporting**
 
 23. **SLA primo contatto < 5 minuti** dal submit lead. 8x conversion vs 24 ore (MIT/InsideSales).
-24. **Lead arricchiti automaticamente** prima del commerciale. Lo facciamo con [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) + OpenAI.
-25. **Tracciamento revenue end-to-end** (campagna → lead → trattativa → vendita). Senza chiudere il loop, ROAS è una promessa. CRM connesso (es. [skalo-crm](https://github.com/cryptogoldit/skalo-crm)) + UTM consistente.
+24. **Lead arricchiti automaticamente** prima del commerciale. Lo facciamo con [skalo-lead-engine](https://skalo.agency/portfolio#lead-engine) + OpenAI.
+25. **Tracciamento revenue end-to-end** (campagna → lead → trattativa → vendita). Senza chiudere il loop, ROAS è una promessa. CRM connesso (es. [skalo-crm](https://skalo.agency/portfolio#crm)) + UTM consistente.
 26. **Report settimanale 3 numeri + 3 azioni** su una pagina. Niente PDF da 40 pagine.
 27. **Annual review: ogni 12 mesi taglia il canale meno efficiente**. Budget liberato al canale che cresce.
 28. **Dashboard interna indipendente dall'agenzia esterna**. Looker Studio + GA4 + CRM, minimo.
