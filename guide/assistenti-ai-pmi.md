@@ -16,6 +16,25 @@ Un assistente AI che funziona per una PMI non è ChatGPT collegato a un sito. È
 
 ---
 
+## Confronto rapido: widget ChatGPT vs chatbot ad albero vs assistente custom
+
+Tre approcci per mettere un assistente AI sul sito o sul WhatsApp aziendale di una PMI italiana. Tutti funzionano in qualche misura — quello che cambia è cosa l'utente percepisce e come scala il valore nel tempo.
+
+| Cosa conta | Widget ChatGPT (Chatbase, ChatBot.io) | Chatbot ad albero (BotPress, Tidio, ManyChat) | Assistente custom con RAG — Skalo |
+|---|---|---|---|
+| **Cosa risponde** | Cerca nei PDF caricati, spesso allucina | Risposte pre-scritte, l'utente naviga voci di menu | Conversazione vera + RAG controllato. Quando non sa lo dice |
+| **Personalizzazione** | Carichi PDF e basta | Configuri ogni risposta a mano | Brand voice doc + KB versionata in git |
+| **Integrazione CRM** | Quasi nulla | Buona con HubSpot/Pipedrive, limitata altrove | Diretta: legge dal CRM, scrive opportunità, prenota call |
+| **WhatsApp Business** | Solo con piani avanzati (+30-100€/mese) | Sì, flussi semplici | WhatsApp Cloud API ufficiale, storia conservata |
+| **Pricing PMI** | 20-100€/mese + OpenAI a parte | 30-150€/mese | Setup one-shot + costi LLM API direttamente tuoi |
+| **Lock-in** | Conversazioni sulla piattaforma | Flussi sul provider, cambiare = rifare | Dati nel tuo Supabase, logica nel tuo repo |
+| **Esempio reale Skalo** | — | — | [skalo-ai-hub](https://github.com/cryptogoldit/skalo-ai-hub): Next.js + Supabase + OpenAI multi-tenant |
+| **Quando ha senso** | Pochi prodotti, FAQ stabile, volumi bassi | Flussi noti (prenotazioni, conferme) senza AI | L'assistente deve capire il contesto cliente e parlare con i tuoi sistemi |
+
+In breve: per un FAQ-bot un po' più sveglio basta un widget ChatGPT generico. Per un flusso fisso (appuntamento → conferma) basta un chatbot ad albero. Per un assistente che conversi davvero e sposti commerciale + assistenza, custom è la differenza fra giocattolo e strumento commerciale.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il problema vero: l'AI generica non funziona per le PMI](#il-problema-assistenti-ai-pmi-problem)
 2. [La soluzione: La soluzione: assistenti AI verticali, costruiti sul DNA della tua azienda](#la-soluzione-assistenti-ai-pmi-sol)
@@ -195,7 +214,7 @@ Il passo successivo non è un preventivo. È una conversazione di 30 minuti in c
 
 Se la soluzione ha senso, ti presentiamo un'architettura su misura con tempi e costi reali. Se non ha senso, te lo diciamo chiaramente — e ti indichiamo cosa fare invece.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Se dopo aver letto la tabella in cima vuoi capire in quale fascia si posiziona il tuo caso — e quanto costa partire — scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure compila il form di [Skalo.agency](https://skalo.agency/#contact). Ti rispondiamo nello stesso giorno lavorativo.
 
 ---
 

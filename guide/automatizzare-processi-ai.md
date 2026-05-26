@@ -16,6 +16,25 @@ Automatizzare i processi aziendali con l'AI non significa comprare un chatbot. S
 
 ---
 
+## Confronto rapido: Zapier vs Make vs n8n vs Custom
+
+Quattro modi per automatizzare i processi di una PMI nel 2026. Tutti reali, tutti utilizzabili — la scelta dipende da volumi, complessità e da quanto controllo vuoi sui tuoi dati.
+
+| Cosa conta | Zapier | Make.com | n8n (self-host / cloud) | Custom Python/Node — Skalo |
+|---|---|---|---|---|
+| **Curva** | Facilissima | Media | Media-alta | Non devi imparare nulla: lo costruiamo noi |
+| **Integrazioni** | 7000+ ma superficiali | 1500+ più complete | 350+ + HTTP custom | Infinite — scriviamo contro le API |
+| **Pricing PMI** | 20-300€/mese a colpi di task | 9-200€/mese più efficiente | Self-host 0€ + server / Cloud 20-50€ | Setup one-shot, niente canone alla piattaforma |
+| **Lock-in** | Alto | Medio (export JSON) | Basso (open source) | Nessuno: codice tuo sul tuo repo |
+| **AI / LLM** | OpenAI base | OpenAI + più controllo | Qualsiasi LLM, anche self-host | Qualsiasi pattern (RAG, tool calling, agenti) |
+| **Affidabilità a volume** | Sotto 1000 task/mese | Fino a 10k operations/mese | Limite solo del server | Quanto scali tu, con retry + DLQ |
+| **GDPR** | Server USA, attenzione | Server EU disponibili | Self-host in UE = pieno controllo | Pieno controllo, hosting EU |
+| **Quando ha senso** | Automazioni semplici fra SaaS noti | Workflow medi con AI, marketing operativo | Workflow complessi con dev interno | Lead gen, qualifica AI, CRM-sync, pipeline — business-critical |
+
+In breve: per un singolo workflow leggero, Zapier basta. Per più workflow con un po' di logica AI, Make. Per chi ha un dev interno e vuole zero canoni, n8n. Per processi business-critical che giustificano un investimento per togliere costi ricorrenti, custom — è la fascia in cui lavoriamo noi.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il vero problema non è la mancanza di tecnologia. È il tempo che si brucia ogni giorno.](#il-problema-automatizzare-processi-ai-problem)
 2. [La soluzione: Automazione AI per PMI: non un prodotto, un sistema costruito su misura.](#la-soluzione-automatizzare-processi-ai-sol)
@@ -212,7 +231,7 @@ Non vendiamo pacchetti standard. Non proponiamo soluzioni prima di capire il con
 
 Il portfolio di Skalo conta oggi 10 progetti reali documentati — dal motore di lead generation B2B al CRM custom per PMI di servizi. Puoi esplorarli sul nostro sito o su GitHub, dove pubblichiamo anche guide tecniche come questa.
 
-Se vuoi una quotazione su misura per automatizzare i processi della tua azienda, scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Niente form infiniti, niente attese: risposta entro 24 ore lavorative.
+Se vuoi che ti aiutiamo a scegliere fra le quattro opzioni della tabella per i processi specifici della tua azienda — e ti diciamo onestamente quando un Make/Zapier basta — scrivici a [info@skalo.agency](mailto:info@skalo.agency) o passa dal form di [Skalo.agency](https://skalo.agency/#contact). Risposta entro la giornata lavorativa.
 
 ---
 
