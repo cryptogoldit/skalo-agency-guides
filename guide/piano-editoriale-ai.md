@@ -16,6 +16,90 @@ Un piano editoriale AI per PMI non significa "far scrivere tutto a ChatGPT e pub
 
 ---
 
+## Le domande che ci fanno più spesso (e come rispondiamo davvero)
+
+Otto domande approfondite sul piano editoriale assistito dall'AI per le PMI. Non risposte da blog post, risposte operative — quello che davvero serve sapere prima di accendere un workflow di pubblicazione AI sui social aziendali. Le domande sono nell'ordine in cui le riceviamo quando un cliente ci chiama.
+
+### 1. Cosa cambia davvero usando l'AI per il piano editoriale rispetto a farlo a mano?
+
+Cambiano tre cose, non quattro come dicono spesso. La prima: la **distanza fra idea e bozza** crolla. Quello che richiedeva mezza giornata di brainstorming + scrittura diventa 20 minuti di prompt + revisione. La seconda: la **coerenza nel tempo**. Un piano editoriale fatto a mano ha mesi forti e mesi vuoti perché dipende dall'umore di chi scrive. Con l'AI hai un backlog perpetuo e una voce stabile. La terza, la più sottovalutata: cambia il **costo marginale di testare angoli nuovi**. Vuoi vedere se un certo tema funziona? Genera 5 post, pubblica, misura. A mano questo costa una settimana, con l'AI mezza giornata.
+
+Cosa NON cambia: la strategia. L'AI non decide *cosa* dire al pubblico — quello è ancora un lavoro umano e strategico. L'AI accelera l'esecuzione, non sostituisce il pensiero. Le PMI che si aspettano "l'AI mi fa il marketing al posto mio" tornano sempre indietro dopo 60 giorni con risultati peggiori di prima.
+
+### 2. Quanto velocemente si crea un piano editoriale completo per una PMI con l'AI?
+
+Con il nostro workflow, il primo piano editoriale mensile (4 settimane × 3 piattaforme × ~3 post a settimana) richiede **circa 3-4 giorni di lavoro umano** distribuiti così:
+
+- Giorno 1 — Discovery (interviste, brand voice doc, analisi competitor, pillar di contenuto): 4-6 ore.
+- Giorno 2 — Configurazione AI (system prompt, libreria prompt, knowledge base): 4-5 ore.
+- Giorno 3 — Generazione + revisione del primo batch di 30-40 post: 5-6 ore.
+- Giorno 4 — Schedulazione, visual, fine tuning del calendario: 3-4 ore.
+
+Dal secondo mese il tempo scende a **mezza giornata a settimana** per generare e validare il batch successivo. La revisione resta umana: i post pubblicati senza revisione si vedono a chilometri e cancellano l'effetto.
+
+### 3. L'AI funziona meglio su LinkedIn, Instagram o entrambi?
+
+Funziona meglio su LinkedIn, e di parecchio. Il motivo: LinkedIn premia testo strutturato, opinioni argomentate, contenuti lunghi 1.000-2.000 caratteri — esattamente quello che gli LLM producono bene. Per una PMI B2B può coprire il 70% del lavoro di scrittura.
+
+Su Instagram il copy conta meno del visual. L'AI aiuta su caption, copy dei caroselli, titoli dei reel — ma se il visual è scadente, il copy perfetto non salva il post. Mix raccomandato: AI per il testo + persona che cura visual e curation.
+
+Su TikTok l'AI praticamente non serve sui testi pubblici, ma serve molto sugli script video: 5-10x più veloci. Il volto in camera lo mette ancora l'umano.
+
+### 4. Quanto costa configurare un piano editoriale AI serio per una PMI?
+
+Tre scenari realistici (range, non prezzi fissi):
+
+- **AI-assisted** (base): due piattaforme, 30-40 post/mese, brand voice + prompt library + revisione settimanale. Range: 800-1.500€/mese. PMI 1-10 dipendenti.
+- **AI-managed** (integrato): 3-4 piattaforme, 60-80 post/mese, sistema custom + scheduler + AI immagini, dashboard. Range: 1.800-3.500€/mese. PMI con e-commerce o servizi che vogliono il KPI organico come canale primario.
+- **Setup one-shot del sistema interno**: workflow proprietario del cliente (prompt, knowledge base, automazioni, integrazione scheduler). Range: 3.000-7.000€ una tantum. Per chi ha già un marketer interno.
+
+Quello che NON facciamo: piano editoriale AI a 200€/mese. Sotto una certa soglia non si fa qualità, ce ne assumiamo la responsabilità.
+
+### 5. Come si mantiene la brand voice quando il contenuto lo scrive una macchina?
+
+Con quattro strumenti, non uno solo:
+
+1. **Brand voice document** (1500-3000 parole): tono, parole bandiera, parole vietate, esempi di frase corretta vs. errata, frasi modello. Entra nel system prompt di ogni generazione.
+2. **Knowledge base prodotti/servizi/cases**: fatti verificabili che l'AI può citare senza inventare.
+3. **Prompt templates per formato**: un prompt per il post LinkedIn leadership, uno per il carosello educational, uno per il behind-the-scenes Instagram. Non si scrivono ad hoc.
+4. **Revisione umana settimanale**: il revisore pesca derive (tono AI generico, claim non verificato, metrica inventata) e le corregge.
+
+Il punto chiave: la brand voice non si delega all'AI. Si configura una volta bene e si controlla in continuo.
+
+### 6. Come gestiamo la qualità senza rallentare il flusso?
+
+Con un sistema a tre "semafori":
+
+- **Verde — pubblicabile**: passa tutti i check, va in calendario automaticamente.
+- **Giallo — revisionare**: dubbio (claim aggressivo, citazione competitor, dato non verificato). Persona apre, modifica o approva.
+- **Rosso — rifare**: viola una regola dura (parola bandita, fatto inventato, tono fuori brand). Rigenerato con prompt più specifico.
+
+In pratica su 40 post settimanali: 60-70% verde, 25% giallo, 5-10% rosso. Il revisore lavora solo sul giallo/rosso: 1-2 ore a settimana invece di 8-10.
+
+### 7. L'AI rispetta GDPR e copyright nei contenuti generati?
+
+Sì, con criterio. Tre principi:
+
+**GDPR e dati personali**: niente dati di clienti reali in prompt verso modelli pubblici consumer. Per personalizzazioni reali usiamo modelli con data residency UE o account business in modalità no-training.
+
+**Copyright sui testi**: niente articoli che imitano dichiaratamente uno stile, niente quote attribuite senza fonte, niente nomi di prodotti registrati di terzi nei copy promozionali.
+
+**Copyright sulle immagini**: Midjourney/DALL-E OK per uso commerciale con piani giusti, ma niente "stile alla X" di artisti viventi o studi specifici. Mix raccomandato: foto reali (anche smartphone) + AI come supporto.
+
+### 8. Come si misura se il piano editoriale AI sta funzionando davvero?
+
+Tre cluster di metriche, in ordine di importanza:
+
+**Settimanali — portata e qualità**: impression organiche per piattaforma, reach unico, engagement rate, saved (Instagram) e reposts (LinkedIn).
+
+**Mensili — funnel**: click al sito via UTM, conversioni attribuibili dai social, crescita follower qualificati.
+
+**Trimestrali — business**: lead in pipeline attribuiti ai social, trattative chiuse con tocco social nel customer journey, costo per lead organico vs. paid.
+
+La metrica che NON guardiamo da sola: numero di follower totali. È un vanity number. Una PMI B2B con 3.000 follower qualificati vende molto più di una con 30.000 follower a caso.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il problema reale: perché i social delle PMI non convertono](#il-problema-piano-editoriale-ai-problem)
 2. [La soluzione: La soluzione: un piano editoriale AI con governance umana](#la-soluzione-piano-editoriale-ai-sol)
@@ -215,7 +299,7 @@ Ogni progetto parte da una conversazione in cui capiamo dove sei, dove vuoi arri
 
 Se gestisci una PMI e vuoi smettere di trattare i social come un compito residuale, scrivici. Ti risponde una persona, non un bot.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Se vuoi che ti facciamo vedere il workflow su un mese vero del tuo brand — un piano editoriale di prova generato con il tuo tono, sui tuoi prodotti, senza impegno — scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure compila il form di [Skalo.agency](https://skalo.agency/#contact). Ti rispondiamo in giornata.
 
 Il primo confronto è gratuito e senza impegno. Vediamo se ha senso lavorare insieme.
 
