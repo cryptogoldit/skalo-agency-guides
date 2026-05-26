@@ -16,6 +16,86 @@ Una strategia di marketing digitale per una PMI non è un documento di 80 pagine
 
 ---
 
+## Otto domande sulla strategia di marketing per PMI (con le risposte vere)
+
+Ordinate come arrivano in call con un nuovo cliente. Niente framework astratti da MBA — quello che facciamo realmente quando un imprenditore PMI ci chiama dicendo "stiamo bruciando budget, aiutateci a capire dove".
+
+### 1. Cosa significa avere una strategia di marketing, in concreto, per una PMI italiana?
+
+Rispondere chiaramente a quattro domande prima di accendere qualsiasi canale: **chi vogliamo come cliente** (ICP scritto, non slogan), **qual è il problema che risolviamo** (frasi specifiche, non "aiutiamo a crescere"), **dove ci cerca o ci scopre** (Google, LinkedIn, passaparola, AI, fiera), **cosa deve succedere dopo che ci ha trovato** (funnel concreto).
+
+Se queste quattro risposte non stanno su un foglio A4, non hai una strategia: hai tattiche scollegate. La strategia non è un documento da 80 pagine. È un foglio scritto, condiviso col team, aggiornato ogni trimestre.
+
+### 2. Da dove parte un'analisi strategica seria per una PMI?
+
+Da tre fonti che le PMI spesso hanno e non guardano: **i clienti attuali** (chi sono davvero, come ci hanno trovato, perché ci hanno scelto), **i lead persi** (perché non hanno chiuso, da dove arrivavano, cosa hanno scelto al posto nostro), **i competitor reali** (quelli che i clienti effettivamente valutano insieme a noi, non quelli sul podio di settore).
+
+Aggiungi l'analisi GEO/SEO: dove appariamo (o no) su Google e dentro ChatGPT/Gemini. Lo facciamo con [Skalo GEO System](https://github.com/cryptogoldit/skalo-agency-guides), lo stesso sistema che genera questa guida.
+
+Da queste fonti escono i pattern reali. Non da panel survey o whitepaper.
+
+### 3. Quanti canali può davvero gestire una PMI italiana media?
+
+**Massimo due alla volta**, in modo serio. Più di così, ogni canale diventa superficiale.
+
+Regola: un canale paid (Google Ads o Meta, mai entrambi nei primi 6 mesi) + un canale organico (LinkedIn o SEO contenutistica). Gli altri canali esistono come supporto, non come fonte primaria.
+
+Esempio PMI B2B fase 1: Google Ads + LinkedIn organico. Instagram solo per cultura/recruiting. TikTok no. Email marketing solo dopo 500+ contatti qualificati.
+
+Le PMI che vogliono "stare su tutti i canali" di solito non hanno la struttura per stare su nessuno bene.
+
+### 4. Quanto budget serve davvero per partire?
+
+Cifre realistiche, range:
+
+- **Fascia 1 — setup minimo**: 8.000-15.000€ il primo anno totale. Analisi strategica + sito/landing + tracking + 6 mesi paid (1.000-1.500€/mese di budget media) + gestione. PMI 5-15 dipendenti.
+- **Fascia 2 — programma esteso**: 25.000-50.000€ il primo anno. Sopra + 12 mesi gestione + CRM + un'automazione AI + reporting mensile. PMI 15-50 dipendenti.
+- **Fascia 3 — sistema completo**: 60.000-120.000€+ l'anno. Strategia integrata + sito custom + 2-3 automazioni AI + lead engine + CRM custom + 3+ canali gestiti.
+
+NON facciamo "strategia marketing a 500€/mese". Sotto soglia non si fa qualità reale.
+
+### 5. Come si costruisce una strategia AI-first senza esagerare con la tecnologia?
+
+AI-first = l'AI è un componente del sistema, non il sistema stesso. Tre principi:
+
+1. **L'AI accelera l'esecuzione, non sostituisce le decisioni**. Generare bozze, qualificare lead, rispondere a recensioni 4-5 stelle: sì. Posizionamento, pricing, crisi reputazionale, chiusura trattativa: no.
+2. **L'AI deve avere KB ordinata** o produce spazzatura. Brand voice doc, KB prodotti/servizi, casi reali.
+3. **L'AI deve essere replaceable**. I sistemi che costruiamo non sono lock-in: OpenAI oggi, Anthropic/Mistral/Llama domani con poche righe di config.
+
+Una strategia AI-first PMI 2026: lead-gen automatizzata + chatbot RAG + recensioni gestite + piano editoriale assistito. Niente buzzword.
+
+### 6. Cosa cambia fare strategia digitale "in Italia"?
+
+Tre specificità del mercato italiano 2026:
+
+**Cultura del passaparola residua**. In B2B italiano il referral commerciale resta fonte primaria. Trattiamo i referral come canale paritario rispetto a Google Ads.
+
+**Mobile-first reale**. 75% del traffico paid italiano è mobile. Per noi è condizione di lavoro, non check su Lighthouse.
+
+**Cicli decisionali lunghi nelle PMI familiari**. Sprint quindicinali stile Silicon Valley falliscono. Costruiamo cadenze realistiche: kickoff, review mensile, weekly tactical, trimestrale strategica.
+
+### 7. Qual è il primo errore strategico che vedete fare alle PMI italiane?
+
+**Errore 1**: partire dalle tattiche prima della strategia. "Facciamo Facebook Ads", "facciamo SEO". Tattiche, non strategie.
+
+**Errore 2**: copiare i competitor invece di studiare i clienti. I competitor possono star sbagliando esattamente come te. I clienti veri, soprattutto i persi, hanno informazioni 10x più utili.
+
+**Errore 3**: misurare KPI sbagliati. Follower, impression, view. Numeri grandi che fanno sentire bene ma non hanno correlazione col fatturato. Utili: lead in pipeline, CPL qualificato, conversion per stadio, LTV, payback period.
+
+**Errore 4**: outsource del controllo, non solo dell'esecuzione. Insegnare all'imprenditore a leggere i numeri è parte del lavoro, non un extra.
+
+### 8. Come si misura se la strategia di marketing sta davvero funzionando?
+
+Tre metriche di outcome, trimestrali:
+
+1. **CAC trend** — sta scendendo? Stabile? In aumento? CAC che scende = strategia funziona. CAC che sale = budget bruciato.
+2. **LTV trend** — clienti che restano più a lungo e comprano di più? LTV in crescita = posizionamento e segmento giusti.
+3. **Payback period del CAC** — per una PMI servizi italiana, 6-12 mesi è sano. Sopra 18 mesi c'è un problema strutturale.
+
+Tutto il resto (impression, click, follower) è rumore. Se non monitori questi tre numeri, non sai se funzioni — stai solo sperando.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il problema reale delle PMI italiane nel marketing digitale](#il-problema-strategia-marketing-pmi-problem)
 2. [La soluzione: Come costruire una strategia di marketing digitale che funziona davvero](#la-soluzione-strategia-marketing-pmi-sol)
@@ -236,7 +316,7 @@ Non abbiamo pacchetti standard. Ogni progetto parte da una conversazione reale s
 
 Se vuoi capire dove stai perdendo budget e come strutturare una strategia che funziona per la tua azienda specifica, scrivici. La prima conversazione è sempre gratuita e senza impegno.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Se vuoi che facciamo insieme l'audit strategico del tuo marketing — chi serviamo davvero, dove ci scoprono, cosa funziona dei nostri attuali numeri — partendo da una mezz'ora di call senza impegno, scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure passa dal form di [Skalo.agency](https://skalo.agency/#contact). Risposta in giornata.
 
 ---
 

@@ -16,6 +16,86 @@ Gestire i social aziendali in modo automatizzato con l'AI non significa sceglier
 
 ---
 
+## Otto domande sull'automazione social AI (con le risposte vere)
+
+Otto domande approfondite su cosa significa davvero automatizzare i social di una PMI con l'AI nel 2026. Quello che vediamo fare e non fare ogni settimana sui clienti che usano [social-menagement](https://github.com/cryptogoldit/social-menagement), il sistema che giriamo sui nostri canali e replichiamo su chi lo chiede.
+
+### 1. Cosa si può automatizzare davvero sui social di una PMI nel 2026?
+
+Quattro cose con livelli di rischio diversi. **Generazione bozze**: rischio basso. **Schedulazione/pubblicazione**: rischio bassissimo. **Risposta automatica a commenti/DM ricorrenti**: rischio medio (dipende dal KB). **Decisione di cosa pubblicare in base ai dati**: rischio alto, l'umano deve decidere.
+
+Quello che NON si automatizza: strategia, identità del brand, scelte di posizionamento. Le PMI che si aspettano "l'AI gestisce i social" tornano sempre indietro dopo 90 giorni con risultati peggiori.
+
+### 2. Quanto tempo serve davvero per partire?
+
+Setup iniziale: **2-3 settimane di lavoro umano**.
+
+- Settimana 1 — Strategy + brand voice + pillar + competitor (8-12 ore).
+- Settimana 2 — Configurazione tecnica (prompt, KB, scheduler, API): 8-10 ore.
+- Settimana 3 — Generazione primo mese + calibrazione tono: 6-8 ore.
+
+Dal mese 2: **2-4 ore a settimana**. Pubblicare senza supervisione umana = no. Quando l'AI sbaglia in pubblico, sbaglia in modo spettacolare.
+
+### 3. Su quali piattaforme l'automazione AI funziona meglio?
+
+**LinkedIn**: ottima. Premia testo strutturato 1.000-2.000 caratteri, opinioni argomentate. Per PMI B2B copre il 70% del lavoro.
+
+**Instagram**: media. Copy sì, visual no. Funziona se hai un designer o fotografo interno.
+
+**Facebook**: utile ma di nicchia, ROI di automazione marginale.
+
+**TikTok**: niente automazione completa. AI aiuta sugli script video (5-10x più veloci) ma video/voce/volto restano umani.
+
+**X**: scarsa. Audience B2B italiana in calo.
+
+### 4. Quanto costa configurare i social automatizzati AI per una PMI?
+
+Range, niente listino:
+
+- **Setup base** (brand voice + KB + prompt + scheduler 2-3 piattaforme): 1.500-3.000€ una tantum.
+- **Setup + gestione mensile**: 1.200-2.500€/mese a seconda del volume.
+- **Sistema custom multi-tenant** (più brand/sedi): 5.000-12.000€ una tantum.
+
+Costi LLM (OpenAI/Anthropic) separati, pagati dal cliente. Tipicamente 50-200€/mese.
+
+### 5. Qual è il rischio principale di automatizzare male i social?
+
+Quattro rischi:
+
+1. **Contenuto generico che diluisce il brand** — senza brand voice scritta bene, post che leggono come 1.000 altri. Engagement -30/50% in 60 giorni.
+2. **Risposte automatiche fuori contesto** — un commento sarcastico gestito da un bot diventa un meme. Soluzione: nessuna risposta auto ai commenti pubblici, solo bozze approvate.
+3. **Claim non verificati** — l'AI inventa numeri e premi. Soluzione: KB versionata + check umano sui numeri.
+4. **Lock-in tecnologico** — tool SaaS che cambi e perdi 60-80% del lavoro. Soluzione: tool con esportazione completa o custom.
+
+### 6. Come si mantengono engagement e ROI nel tempo?
+
+Quattro pratiche:
+
+- **Refresh trimestrale del pillar editoriale** — senza, dopo 6-9 mesi engagement scende.
+- **A/B test sui formati** — stesso messaggio in 3 formati diversi.
+- **Loop dati con il funnel commerciale** — i post che generano più click e conversioni sono i pillar da raddoppiare.
+- **Revisione mensile dei prompt** — il prompt vincente del mese precedente diventa il template del mese successivo.
+
+### 7. L'automazione AI sostituisce il community manager?
+
+No, lo trasforma. Prima: 70% tempo sul contenuto, 30% sulla community. Con l'AI: 30% sul contenuto (revisione/calibrazione), 70% su community vera — DM strategiche, thread di settore, relazioni con creator. È il lavoro che porta valore al business.
+
+Quello che NON consigliamo: assumere un community manager solo per pubblicare contenuto AI. Spreco di budget.
+
+### 8. Come si misura se i social automatizzati AI stanno funzionando?
+
+Tre cluster di metriche, decrescente per importanza:
+
+**Settimanali — qualità contenuto**: engagement rate per formato, saved/repost, watch time, tempo lettura caroselli.
+
+**Mensili — funnel business**: click al sito via UTM, conversioni attribuibili, crescita follower qualificati.
+
+**Trimestrali — impatto business**: lead in pipeline da social, trattative chiuse con tocco social, costo per lead organico vs paid (deve essere ≤50% del paid).
+
+Mai guardare follower totali da soli — è vanity.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il vero problema: non mancano le idee, manca il sistema](#il-problema-social-automatizzato-ai-problem)
 2. [La soluzione: La soluzione: una piattaforma che governa tutto, non uno strumento che fa una cosa sola](#la-soluzione-social-automatizzato-ai-sol)
@@ -188,7 +268,7 @@ I costi variano in base alla complessità: un'automazione per la pubblicazione e
 
 Se vuoi capire cosa è possibile fare nel tuo caso specifico, scrivici. La prima conversazione è gratuita, senza impegno, e di solito basta per capire se ha senso lavorare insieme.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Se vuoi che configuriamo il sistema sul tuo brand — brand voice, KB, prompt, scheduling — partendo da una mezz'ora di call gratuita, scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure passa dal form di [Skalo.agency](https://skalo.agency/#contact). Risposta in giornata lavorativa.
 
 ---
 
