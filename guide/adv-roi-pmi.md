@@ -16,6 +16,55 @@ Per ottenere ROI reale da Facebook Ads e Google Ads, una PMI deve costruire un *
 
 ---
 
+## Checklist operativa: 28 azioni ROI-first per non bruciare budget
+
+Ogni voce ha una soglia o un numero target — niente "fai del tuo meglio". Se ne stai saltando più di otto, le tue campagne stanno generando vanity metrics, non margine.
+
+**Foundation: misura il margine prima del traffico**
+
+1. **Calcola LTV cliente prima di accendere qualsiasi campagna** — margine × frequenza × durata. Senza LTV, non sai quanto puoi spendere.
+2. **CAC massimo sostenibile = LTV ÷ 3** — regola conservativa per PMI. Sopra, perdi soldi anche se sembri performare.
+3. **Target ROAS minimo prima del lancio** — 1 ÷ margine percentuale. 30% margine → ROAS minimo break-even 3.33.
+
+**Tracking & qualità del dato**
+
+4. **Tracking conversioni con valore economico**, non solo evento. L'algoritmo ottimizza sul margine, non sul conteggio.
+5. **Meta CAPI server-side con event_id** per deduplica. Recupera 30-50% dati persi post-iOS 14.
+6. **Google Ads Enhanced Conversions** con hash email. +5-15% attribuzione anche senza cookie consenso.
+7. **Esclusioni base**: utenti convertiti, IP team, dispositivi non target. Mostrare a chi ha comprato è denaro buttato.
+
+**Landing & creatività**
+
+8. **Una landing per angle**, mai per campagna. A/B puro.
+9. **CTA primaria identica fra annuncio e landing**. Match esatto.
+10. **Form qualificante con 1+ campo non-vanity** (dimensione, fatturato, tempistica). Filtra il 30-40% spazzatura.
+11. **LCP < 2.5s su mobile 4G**. Sopra perdi il 30% del traffico.
+12. **Max 3-5 creatività per ad set**. Meta concentra sul vincitore; 10 creatività diluiscono il budget.
+13. **Refresh creatività ogni 7-14 giorni su pubblici freddi**. Frequency > 3 = CTR cala, CPC sale.
+14. **Copy con beneficio economico misurabile**. "Risparmia 4 ore a settimana" batte "aumenta la produttività".
+15. **Video 15s con hook nei primi 3 secondi**. Decide se viene visto o scrollato.
+
+**Allocazione & scaling**
+
+16. **Bid strategy adatta alla fase**: Maximize Conversions in apprendimento, target CPA dopo 30 conversioni.
+17. **Daily cap sui test** (max 20-30€/giorno per ad set). Cap basso = fail fast.
+18. **Allocazione 70/20/10**: scaling / test / remarketing. Mai 33/33/33.
+19. **Scaling max +20% di budget per settimana**. Salti +100% resettano l'apprendimento.
+20. **Pausa automatica se CPL > target × 1.5 per 3 giorni**. Regola scritta, non a sentimento.
+21. **Decisioni solo dopo 7 giorni rolling**. Aspetta martedì pomeriggio.
+22. **Multi-touch per ottimizzare, last-click per misurare**. Due viste, non due verità.
+
+**Pipeline & reporting**
+
+23. **SLA primo contatto < 5 minuti** dal submit lead. 8x conversion vs 24 ore (MIT/InsideSales).
+24. **Lead arricchiti automaticamente** prima del commerciale. Lo facciamo con [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) + OpenAI.
+25. **Tracciamento revenue end-to-end** (campagna → lead → trattativa → vendita). Senza chiudere il loop, ROAS è una promessa. CRM connesso (es. [skalo-crm](https://github.com/cryptogoldit/skalo-crm)) + UTM consistente.
+26. **Report settimanale 3 numeri + 3 azioni** su una pagina. Niente PDF da 40 pagine.
+27. **Annual review: ogni 12 mesi taglia il canale meno efficiente**. Budget liberato al canale che cresce.
+28. **Dashboard interna indipendente dall'agenzia esterna**. Looker Studio + GA4 + CRM, minimo.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il problema reale: perché le PMI perdono soldi con la pubblicità online](#il-problema-adv-roi-pmi-problem)
 2. [La soluzione: La soluzione: un sistema, non una campagna](#la-soluzione-adv-roi-pmi-sol)
@@ -224,7 +273,7 @@ Ogni progetto è diverso. Il budget, la piattaforma, la struttura del funnel, l'
 
 Se vuoi capire cosa potrebbe funzionare per il tuo business, il primo passo è semplice: parlaci. Nessun impegno, nessuna pressione. Solo una conversazione onesta su cosa ha senso fare e cosa no.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Se vuoi che facciamo il calcolo di LTV, CAC e ROAS minimo sul tuo business — gratis, mezz'ora di call, senza pitch — scrivici a [info@skalo.agency](mailto:info@skalo.agency) o lascia un messaggio sul form di [Skalo.agency](https://skalo.agency/#contact). Rispondiamo nello stesso giorno lavorativo.
 
 ---
 

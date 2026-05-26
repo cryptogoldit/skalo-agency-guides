@@ -16,6 +16,60 @@ La lead generation B2B per PMI italiane funziona solo come **sistema sartoriale 
 
 ---
 
+## Checklist operativa: 30 azioni per una pipeline B2B che funziona davvero
+
+Ordinate dal momento in cui un'azienda diventa target al momento in cui chiude il contratto. Le facciamo girare con [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) e [skalo-crm](https://github.com/cryptogoldit/skalo-crm) su di noi e sui clienti che ce lo chiedono. Saltarne più di otto = pipeline "a sentimento", non un sistema.
+
+**ICP e target list**
+
+1. **Definisci ICP con 5 criteri secchi**: settore, fatturato, dimensione team, area, tecnologia usata.
+2. **Lista 50-100 aziende target reali per nome** prima di automatizzare.
+3. **Decision maker per ogni account**: nome, ruolo, LinkedIn, email aziendale. Mai "info@".
+4. **Enrichment automatico**: dimensione + tech stack + segnali crescita (skalo-lead-engine + scraping + OpenAI).
+5. **Lead scoring 0-100** con 4-6 criteri pesati. Solo lead ≥60 al commerciale.
+6. **Segmentazione per urgenza**: hot / warm / cold, cadenza outreach diversa.
+
+**Outreach**
+
+7. **Multi-canale** (email + LinkedIn + call). Mai un canale solo. 5-7 touchpoint in 21 giorni.
+8. **Email corte max 100 parole, una sola CTA.**
+9. **Personalizzazione vera nelle prime 2 righe** (post LinkedIn, news azienda, dato pubblico). Mai "spero ti vada bene".
+10. **A/B subject line ogni 100 invii**. Open <40% = subject da rifare.
+11. **Warmup dominio** prima di scalare: 0 → 50 email/giorno in 4 settimane.
+12. **SPF + DKIM + DMARC** configurati. Senza, 30-50% finisce in spam. Verifica mail-tester.com.
+
+**CRM e qualifica**
+
+13. **CRM con pipeline visibile a colpo d'occhio**, max 6 stadi.
+14. **Handoff MQL→SQL via discovery call di 30 min documentata** (BANT compilato).
+15. **Script discovery con 8-10 domande aperte**. Non vendi, capisci.
+16. **Documentazione opportunità nel CRM entro 4 ore** dalla call.
+17. **Follow-up entro 24h ogni interazione**, sintesi + next step concreto.
+
+**Chiusura**
+
+18. **Proposta modulare** (small/medium/large) con scopo, tempi, prezzi range. No PDF fissi.
+19. **Proposta presentata in call, mai via email allegato**. Conversion x2.
+20. **Obiezioni catalogate nel CRM** con risposta scritta che funziona statisticamente.
+21. **Firma elettronica + acconto 30-40%**. Lead-to-cash 14 giorni.
+
+**Misurazione & nurturing**
+
+22. **Tasso conversione per stadio del funnel**, non totale. Identifica il collo di bottiglia.
+23. **Cohort analysis trimestrale per fonte lead** (LinkedIn vs Ads vs referral): chi chiude, chi ha LTV alto.
+24. **Nurturing per lost-timing**: email mensile light. Si rianima a 6-9 mesi.
+25. **Database churn-back** per ex-clienti. Mai cancellarli, segnali dormant.
+
+**Operazioni e crescita**
+
+26. **Report settimanale 5 numeri + 1 decisione**.
+27. **Sales playbook scritto**, aggiornato ogni trimestre.
+28. **Onboarding strutturato dal giorno -1**, kickoff programmato pre-firma.
+29. **Referral program attivo dal giorno 90**, incentivo chiaro 10-15% primo anno.
+30. **Annual review pipeline**: canali da chiudere, fonti da raddoppiare, script da riscrivere.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il vero problema della lead generation B2B nelle PMI italiane](#il-problema-lead-generation-b2b-problem)
 2. [La soluzione: Lead generation B2B sartoriale: cosa significa davvero](#la-soluzione-lead-generation-b2b-sol)
@@ -207,7 +261,7 @@ Noi di Skalo.agency offriamo una chiamata conoscitiva di 30 minuti, senza impegn
 
 Se decidiamo di lavorare insieme, ti mandiamo una proposta su misura con scope preciso, tempi definiti e costi chiari. Niente sorprese.
 
-**Scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure compila il form su [Skalo.agency](https://skalo.agency/#contact).**
+Se vuoi che ti aiutiamo a impostare ICP, scoring e pipeline da zero — usando gli stessi strumenti con cui gestiamo i nostri lead, [skalo-lead-engine](https://github.com/cryptogoldit/skalo-lead-engine) e [skalo-crm](https://github.com/cryptogoldit/skalo-crm) — scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure compila il form di [Skalo.agency](https://skalo.agency/#contact). Risposta in giornata.
 
 Non promettiamo risultati in 30 giorni. Promettiamo un sistema che funziona.
 
