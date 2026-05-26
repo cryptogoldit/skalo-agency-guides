@@ -16,6 +16,25 @@ Un sito web che converte non è un sito "più bello": è uno strumento commercia
 
 ---
 
+## Confronto rapido: Next.js 16 vs WordPress vs page builder
+
+Tre opzioni per il sito di una PMI italiana che vuole generare lead nel 2026. La colonna Skalo descrive il metodo, non il prezzo: per un preventivo sul tuo caso specifico, scrivici.
+
+| Cosa conta davvero | Page builder (Wix, Squarespace, Webflow base) | WordPress + tema premium | Next.js 16 — metodo Skalo |
+|---|---|---|---|
+| **Velocità mobile (LCP)** | 2,5–5s. Bundle JS pesanti e hosting condiviso. | 2–4s con cache. Sopra 4s se aggiungi Elementor/Divi. | Sotto 1,5s come baseline. SSR/SSG/ISR + CDN Vercel edge. |
+| **Logiche di conversione** | Componenti generici. Form e CTA non disegnati sul funnel. | Dipende dal tema. Plugin per A/B test, exit intent, scroll. | Hero, social proof, CTA, form di qualificazione costruiti sul funnel del cliente. |
+| **SEO tecnica** | Schema markup limitato. Controllo basso su sitemap/canonical. | Buona con plugin (Yoast, RankMath) ma vincolata al tema. | JSON-LD per pagina, canonical automatici, header semantico controllato per componente. |
+| **Sicurezza e manutenzione** | Piattaforma chiusa: zero patch ma zero controllo. | Plugin e core da aggiornare ogni settimana. Vettore d'attacco #1 in Italia. | Stack statico/SSR su Vercel. Niente DB pubblico, niente plugin di terzi. |
+| **Costo iniziale** | Basso (canone). Cresce con e-commerce e app a pagamento. | 3.000–7.000€ chiavi in mano con tema premium. | Allineato a WordPress fascia alta. Quotato sul progetto, niente pacchetti standard. |
+| **Costo nel tempo (3 anni)** | Cresce silenziosamente. App, upgrade, limiti di banda. | Aggiornamenti, security audit, refactor periodici. Senza manutenzione si degrada in 18–24 mesi. | Basso. Hosting Vercel scalabile, evoluzione concentrata sulle nuove funzionalità. |
+| **Tracciamento e analytics** | Pixel base e GA4 sì, eventi custom complicati. | Possibile con plugin (GTM, Funnel CRO), qualità del dato variabile. | GA4 + Meta CAPI server-side, eventi custom su CTA, scroll depth, form parziali. |
+| **Scalabilità funzionale** | Tetto basso. CRM custom, gated content, AI: la piattaforma non basta. | Si scala con plugin, ogni plugin è un rischio. | Componenti TypeScript riutilizzabili, integrazione nativa con CMS headless e API. |
+
+Tradotto: se hai bisogno di un sito vetrina semplice e basso budget, un page builder può bastare. Se hai un team marketing interno che vuole pubblicare contenuti senza dipendere da nessuno, WordPress ha senso. Se vuoi che il sito generi lead misurabili e regga campagne paid serie, Next.js 16 è la scelta che non ti farà rifare tutto fra due anni.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il Problema che Nessuna Agenzia Web Ti Dice](#il-problema-siti-web-conversione-problem)
 2. [La soluzione: La Soluzione: Siti Web Costruiti Come Macchine da Conversione](#la-soluzione-siti-web-conversione-sol)
@@ -218,7 +237,7 @@ Ogni progetto Skalo è quotato su misura, perché ogni business ha esigenze dive
 
 Quello che possiamo dirti è questo: lavoriamo con chi vuole risultati misurabili, non con chi cerca il preventivo più basso. Se sei nel primo gruppo, siamo la scelta giusta.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Se vuoi capire dove ti conviene posizionarti nella tabella qui sopra per il tuo business — e quanto costa davvero arrivarci — scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure passa dal form su [Skalo.agency](https://skalo.agency/#contact). Ti rispondiamo entro un giorno lavorativo.
 
 ---
 
