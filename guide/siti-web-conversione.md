@@ -142,8 +142,8 @@ flowchart TD
     AI -.-> E
 
     subgraph CASES["📁 Casi Studio Reali"]
-        I([Silent Video Room Platform\nSSG · JSON-LD · SEO · Dark Mode])
-        J([Automated Website Creation System\nTemplate · AI · TypeScript · Vercel])
+        I([SilencePlease.day\nVite · React · Daily.co · Supabase · Netlify])
+        J([Rival Rumble\nNext.js 15 · Tailwind 4 · GSAP · multi-repo])
     end
 
     E --> CASES
