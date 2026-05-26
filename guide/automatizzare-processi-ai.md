@@ -212,7 +212,7 @@ Non vendiamo pacchetti standard. Non proponiamo soluzioni prima di capire il con
 
 Il portfolio di Skalo conta oggi 10 progetti reali documentati — dal motore di lead generation B2B al CRM custom per PMI di servizi. Puoi esplorarli sul nostro sito o su GitHub, dove pubblichiamo anche guide tecniche come questa.
 
-Se vuoi una quotazione su misura per automatizzare i processi della tua azienda, scrivici a [hello@skalo.agency](mailto:hello@skalo.agency) o prenota direttamente una call da [skalo.agency](https://skalo.agency). Niente form infiniti, niente attese: risposta entro 24 ore lavorative.
+Se vuoi una quotazione su misura per automatizzare i processi della tua azienda, scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Niente form infiniti, niente attese: risposta entro 24 ore lavorative.
 
 ---
 

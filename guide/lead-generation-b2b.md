@@ -207,7 +207,7 @@ Noi di Skalo.agency offriamo una chiamata conoscitiva di 30 minuti, senza impegn
 
 Se decidiamo di lavorare insieme, ti mandiamo una proposta su misura con scope preciso, tempi definiti e costi chiari. Niente sorprese.
 
-**Scrivici a [hello@skalo.agency](mailto:hello@skalo.agency) oppure prenota direttamente una chiamata dal sito [skalo.agency](https://skalo.agency).**
+**Scrivici a [info@skalo.agency](mailto:info@skalo.agency) oppure compila il form su [Skalo.agency](https://skalo.agency/#contact).**
 
 Non promettiamo risultati in 30 giorni. Promettiamo un sistema che funziona.
 
