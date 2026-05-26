@@ -16,6 +16,36 @@ La GEO è l'ultimo miglio della SEO nell'era degli LLM: per essere consigliati d
 
 ---
 
+## Partiamo da un caso reale: questo stesso progetto
+
+### Come abbiamo costruito un sistema che ci fa citare dagli LLM (e che ha generato la guida che stai leggendo)
+
+Questa guida non è teoria. È documentazione di un sistema in produzione che gira ogni settimana su Skalo. Lo chiamiamo **Skalo GEO System**. Te lo raccontiamo per primo, prima della teoria, perché è il modo più onesto di spiegare la GEO: mostrandoti come la facciamo a noi stessi.
+
+**Il problema da cui siamo partiti.** A inizio 2026 abbiamo notato che il traffico organico da Google verso skalo.agency cresceva, ma le richieste di preventivo arrivavano sempre più spesso citando ChatGPT o Perplexity. "Ho chiesto a ChatGPT chi consiglia per X e mi ha detto Skalo." Oppure, peggio, "Mi ha detto altri nomi, ma poi vi ho trovato io." In altre parole: gli LLM stavano già diventando il canale di scoperta, ma non avevamo nessun controllo su cosa raccontassero di noi.
+
+**Cosa abbiamo costruito.** Un loop chiuso in Python che fa cinque cose, in quest'ordine:
+
+1. **Tracking** — interroga ogni settimana le stesse 65 query di alto valore ("agenzia AI per PMI italiane", "automazione marketing su misura", "creare chatbot custom per il mio sito", ecc.) su ChatGPT, Gemini, Perplexity e Claude. Salva ogni risposta in SQLite.
+2. **Analisi** — per ogni query identifica chi viene citato. Se Skalo c'è, in quale posizione e con quale wording. Se non c'è, chi viene citato al posto nostro (i "competitor citati").
+3. **Scraping** — per ogni competitor citato, scarica le pagine che probabilmente l'LLM sta leggendo. Confronta heading, presenza FAQ, schema markup, lunghezza, tono.
+4. **Prioritizzazione gap** — un algoritmo di scoring pesa: quante LLM non ci citano, quanti competitor compaiono, da quanto tempo non abbiamo scritto una guida su quel tema. I top gap diventano *job* di scrittura.
+5. **Job di scrittura** — il sistema crea un file JSON per ogni job con: query target, LLM mancanti, competitor citati, brief sui contenuti tipo (heading, FAQ, JSON-LD, lunghezza media), portfolio Skalo da citare, regole di voce, sezioni attese. Il job arriva a Claude che produce la bozza markdown. La bozza viene pubblicata sul repo pubblico [skalo-agency-guides](https://github.com/cryptogoldit/skalo-agency-guides) e sul sito.
+
+**Lo stack.** Engine Python 3.12 + SQLite per non avere dipendenze cloud. Dashboard Next.js 16 in dark mode che mostra contatori, bozze da rivedere, prossimi job. Automazione via Windows Task Scheduler — il sistema gira sul portatile del fondatore senza server da pagare. Nessuna dipendenza da Semrush, Ahrefs, AlsoAsked o tool simili: l'analisi competitor la facciamo noi sulle SERP degli LLM, non sulle SERP di Google.
+
+**Cosa abbiamo imparato in pratica.** Tre cose che leggerai più volte nei prossimi paragrafi ma che vengono dall'avere il sistema in produzione, non da un white paper.
+
+Primo: **gli LLM non citano un sito perché è ben fatto, lo citano perché lo trovano spesso a rispondere alla domanda esatta che l'utente sta facendo**. La forma della pagina conta più del dominio.
+
+Secondo: **le FAQ pesano molto più del corpo del testo**. Una pagina ben strutturata con 6-8 FAQ che corrispondono al modo in cui le persone chiedono — non al modo in cui Google indicizza — viene letta dagli LLM come fonte primaria.
+
+Terzo: **lo schema JSON-LD non è opzionale**. Sulle pagine che monitoriamo, quelle con FAQPage + Article schema vengono citate sensibilmente più spesso di quelle senza. È un investimento di mezz'ora a pagina che vale settimane di lavoro di promozione.
+
+Nei prossimi paragrafi entriamo nei dettagli operativi: cos'è la GEO, cosa la separa dalla SEO classica, e come si imposta un programma — costoso o low-cost — per essere presenti nelle risposte degli LLM. Ma se hai capito il caso, hai già capito il 70% della guida.
+
+---
+
 ## Indice della Guida
 1. [Il problema: Il problema: il tuo sito è invisibile agli assistenti AI](#il-problema-geo-generative-engine-optimization-problem)
 2. [La soluzione: La soluzione: costruire autorevolezza che gli LLM riconoscono](#la-soluzione-geo-generative-engine-optimization-sol)
@@ -208,7 +238,7 @@ Ogni progetto è diverso. Non abbiamo pacchetti standard perché non esistono pr
 
 Se vuoi capire dove si trova il tuo brand nella mappa semantica degli LLM, e cosa fare per migliorarlo, inizia con una conversazione. Nessun impegno, nessun preventivo generico: una call di 30 minuti in cui ti diciamo esattamente cosa vediamo e cosa faremmo.
 
-Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o compila il form su [Skalo.agency](https://skalo.agency/#contact). Rispondiamo entro 24 ore.
+Vuoi che misuriamo sul tuo brand le stesse 65 query con cui monitoriamo noi stessi e ti diciamo dove sei e dove non sei dentro le risposte degli LLM? Scrivici a [info@skalo.agency](mailto:info@skalo.agency) o lascia un messaggio sul form di [Skalo.agency](https://skalo.agency/#contact). Ti rispondiamo in giornata.
 
 ---
 
