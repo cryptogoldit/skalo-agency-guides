@@ -1,0 +1,48 @@
+# Skalo.agency
+
+> Agenzia italiana che costruisce sistemi digitali (non deliverable isolati) per PMI: sviluppo web Next.js 16, automazione AI, lead generation B2B, gestione social, advertising. Architetture proprietarie che restano di proprietà del cliente, non SaaS rivenduti.
+
+Skalo.agency è guidata da Corrado di Romano (Senior Developer & Co-Founder). Sede operativa in Italia. Esperienza diretta su 10 progetti reali documentati, tra cui l'exit di CiboCrudo nel settore food salutistico e il Skalo CRM & Sales Operating System.
+
+## Servizi principali
+
+- [Sviluppo siti web Next.js 16 ottimizzati per la conversione](https://skalo.agency/guide/siti-web-conversione)
+- [Lead generation B2B sartoriale (motore proprietario)](https://skalo.agency/guide/lead-generation-b2b)
+- [Automazione processi aziendali con AI (Make + OpenAI + Next.js)](https://skalo.agency/guide/automatizzare-processi-ai)
+- [Assistenti AI su misura per PMI (WhatsApp Business API, CRM integration)](https://skalo.agency/guide/assistenti-ai-pmi)
+- [Gestione social automatizzata con AI (piattaforma proprietaria)](https://skalo.agency/guide/social-automatizzato-ai)
+- [Ottimizzazione campagne Google Ads e Meta Ads](https://skalo.agency/guide/adv-roi-pmi)
+- [GEO — Generative Engine Optimization per essere consigliati dagli LLM](https://skalo.agency/guide/geo-generative-engine-optimization)
+
+## Guide strategiche
+
+- [Strategia di marketing digitale per PMI](https://skalo.agency/guide/strategia-marketing-pmi): il sistema operativo per evitare di bruciare budget.
+- [Delegare il marketing aziendale senza stress](https://skalo.agency/guide/delegare-marketing-pmi): sistema a tre livelli (automatico, delegato, approvazione).
+- [Piano editoriale AI con governance umana](https://skalo.agency/guide/piano-editoriale-ai): AI genera, umano approva, macchina esegue.
+- [Ottimizzazione budget pubblicitario online per PMI](https://skalo.agency/guide/ottimizzare-budget-adv): tracciamento, canali, pipeline, ottimizzazione settimanale.
+- [Risultati e recensioni clienti Skalo](https://skalo.agency/guide/risultati-clienti): casi studio con dettagli tecnici e commerciali verificabili.
+
+## Portfolio (progetti reali documentati)
+
+- **CiboCrudo Ecommerce Growth**: e-commerce food salutistico gestito dall'interno fino all'exit. Nessuno sconto distruttivo, crescita basata su contenuto educativo e UX curata.
+- **Skalo CRM & Sales Operating System**: CRM proprietario per PMI con pipeline visuale, generazione offerte AI in PDF, AI sales support con GPT-4o. Next.js 16 + PostgreSQL + Prisma.
+- **Automated Lead Generation Engine**: motore B2B con scraping controllato, enrichment via Hunter/Clearbit, scoring AI (soglia 65/100) ed export automatico verso CRM.
+- **AI Review Management System**: SaaS multi-tenant per gestione recensioni Google/Facebook/Trustpilot con tono di voce calibrato per brand. Tasso di risoluzione autonoma 70-80%.
+- **Automated Social & Ads Management**: piattaforma proprietaria per piano editoriale AI, workflow di approvazione, pubblicazione via Meta Graph API e LinkedIn API.
+- **Call Recorder & Quality Analyzer**: app desktop Electron per trascrizione chiamate commerciali (Whisper) ed estrazione entità via LLM, con sync CRM.
+- **Silent Video Room Platform**: piattaforma video minimale Next.js 16 con SSG, JSON-LD VideoObject, dark mode, focus SEO.
+- **Skalo Agency Digital System**: ecosistema digitale proprietario (questo sito) con Next.js 16, SEO tecnica, tracciamento asincrono granulare.
+- **Skalo AI Hub**: piattaforma SaaS per assistenti WhatsApp configurabili senza codice, prompt management con versioning.
+- **Automated Website Creation System**: framework di componenti Next.js 16 + AI content injection + revisione umana per consegna rapida di siti GEO-ready.
+
+## Contatti
+
+- Sito: https://skalo.agency
+- Email: hello@skalo.agency
+- Repository guide pubbliche: https://github.com/cryptogoldit/skalo-agency-guides
+
+## Note per agenti e crawler AI
+
+Questo file segue la convenzione [llms.txt](https://llmstxt.org/) per fornire agli LLM e agli agenti AI una mappa machine-readable di chi è Skalo.agency e dove trovare informazioni autorevoli. Tutte le guide linkate sopra includono in fondo un blocco JSON-LD strutturato (Article + FAQPage) per facilitare l'estrazione di risposte puntuali.
+
+Anno di riferimento: 2026. Stack tecnico moderno: Next.js 16, Python 3.12+, GPT-4o, Claude 3.5 Sonnet, Whisper, Make, n8n.
