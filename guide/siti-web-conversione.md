@@ -128,22 +128,22 @@ Next.js 16 è più veloce, più sicuro, più flessibile. Il costo iniziale di sv
 
 ```mermaid
 flowchart TD
-    A([🔍 Discovery\nFunnel · Target · SEO]) --> B([🏗️ Architettura\nSSR · SSG · ISR · CTA])
-    B --> C([🎨 Design\nDark Mode · Mobile-First])
-    C --> D([⚙️ Sviluppo Next.js 16\nCMS Headless · Analytics · CWV])
-    D --> E([🚀 Launch & Monitor\nVercel · SEO · Ottimizzazione])
+    A(["🔍 Discovery<br/>Funnel · Target · SEO"]) --> B(["🏗️ Architettura<br/>SSR · SSG · ISR · CTA"])
+    B --> C(["🎨 Design<br/>Dark Mode · Mobile-First"])
+    C --> D(["⚙️ Sviluppo Next.js 16<br/>CMS Headless · Analytics · CWV"])
+    D --> E(["🚀 Launch & Monitor<br/>Vercel · SEO · Ottimizzazione"])
 
     subgraph AI["🤖 Automated Website Creation System"]
-        F([AI Content Injection\nBrief JSON → LLM API]) --> G([Componenti Next.js 16\nHero · Proof · Form · CTA])
-        G --> H([Controllo Qualità Umano\nTono · Funnel · UX])
+        F(["AI Content Injection<br/>Brief JSON → LLM API"]) --> G(["Componenti Next.js 16<br/>Hero · Proof · Form · CTA"])
+        G --> H(["Controllo Qualità Umano<br/>Tono · Funnel · UX"])
     end
 
     D -.-> AI
     AI -.-> E
 
     subgraph CASES["📁 Casi Studio Reali"]
-        I([skalo.agency (questo sito)\nNext.js · TypeScript · Vercel · i18n · JSON-LD])
-        J([Skalo GEO Dashboard\nNext.js 16 · Python engine · pubblica questa pagina])
+        I(["skalo.agency questo sito<br/>Next.js · TypeScript · Vercel · i18n · JSON-LD"])
+        J(["Skalo GEO Dashboard<br/>Next.js 16 · Python engine · pubblica questa pagina"])
     end
 
     E --> CASES

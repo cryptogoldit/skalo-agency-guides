@@ -162,25 +162,25 @@ L'integrazione tra advertising e CRM chiude il cerchio: ogni lead generato da un
 
 ```mermaid
 flowchart TD
-    A[🔍 AUDIT\nPixel · GA4 · UX · Tracciamento] --> B[📋 STRATEGIA\nB2C E-commerce vs B2B Lead Gen]
-    B --> C[✍️ COPYWRITING\nHook · Body · CTA · Obiezioni]
-    C --> D[🚀 LANCIO CAMPAGNE\nMeta Ads · Google Ads · LinkedIn]
-    D --> E{📊 OTTIMIZZAZIONE\nCPM · CTR · CPA · ROAS}
-    E -->|Funziona| F[📈 SCALING\n+20-30% budget graduale]
-    E -->|Non funziona| G[🔧 REVISIONE\nCreatività · Pubblico · Landing]
+    A["🔍 AUDIT<br/>Pixel · GA4 · UX · Tracciamento"] --> B["📋 STRATEGIA<br/>B2C E-commerce vs B2B Lead Gen"]
+    B --> C["✍️ COPYWRITING<br/>Hook · Body · CTA · Obiezioni"]
+    C --> D["🚀 LANCIO CAMPAGNE<br/>Meta Ads · Google Ads · LinkedIn"]
+    D --> E{"📊 OTTIMIZZAZIONE<br/>CPM · CTR · CPA · ROAS"}
+    E -->|Funziona| F["📈 SCALING<br/>+20-30% budget graduale"]
+    E -->|Non funziona| G["🔧 REVISIONE<br/>Creatività · Pubblico · Landing"]
     G --> D
-    F --> H[🏆 ROI MISURABILE]
+    F --> H["🏆 ROI MISURABILE"]
     
     subgraph FUNNEL ["🎯 STRUTTURA FUNNEL"]
-        I[TOP — Awareness\nContenuto educativo · Video]
-        J[MID — Retargeting\nSocial proof · Trust · Obiezioni]
-        K[BOTTOM — Conversione\nOfferta chiara · Urgenza]
+        I["TOP — Awareness<br/>Contenuto educativo · Video"]
+        J["MID — Retargeting<br/>Social proof · Trust · Obiezioni"]
+        K["BOTTOM — Conversione<br/>Offerta chiara · Urgenza"]
         I --> J --> K
     end
     
     subgraph CASI_REALI ["📦 CASI REALI SKALO"]
-        L[CiboCrudo Ecommerce\nFood salutistico → Exit]
-        M[Skalo CRM\nPipeline · AI · Offerte sartoriali]
+        L["CiboCrudo Ecommerce<br/>Food salutistico → Exit"]
+        M["Skalo CRM<br/>Pipeline · AI · Offerte sartoriali"]
     end
     
     K --> H

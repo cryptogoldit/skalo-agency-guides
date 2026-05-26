@@ -201,27 +201,27 @@ Ma ogni decisione strategica rimane umana. L'AI non sa cosa vuole il tuo cliente
 
 ```mermaid
 flowchart TD
-    A[🎯 POSIZIONAMENTO\nChi · Perché · Come] --> B[📝 CONTENUTO\nAsset · SEO · Educazione]
-    B --> C[📣 TRAFFICO\nAds · SEO · Social]
-    C --> D[💰 CONVERSIONE\nLanding · CRM · Offerte]
+    A["🎯 POSIZIONAMENTO<br/>Chi · Perché · Come"] --> B["📝 CONTENUTO<br/>Asset · SEO · Educazione"]
+    B --> C["📣 TRAFFICO<br/>Ads · SEO · Social"]
+    C --> D["💰 CONVERSIONE<br/>Landing · CRM · Offerte"]
 
-    D --> E{SISTEMA OPERATIVO INTEGRATO}
+    D --> E{"SISTEMA OPERATIVO INTEGRATO"}
 
-    E --> F[🗂️ SKALO CRM\nPipeline · Offerte · AI Sales]
-    E --> G[⚡ NEXT.JS 16\nInfrastruttura · Analytics]
-    E --> H[🤖 AUTOMAZIONE AI\nEmail · Report · Workflow]
-    E --> I[📊 DATI REALI\nTracciamento · ROI · Decisioni]
+    E --> F["🗂️ SKALO CRM<br/>Pipeline · Offerte · AI Sales"]
+    E --> G["⚡ NEXT.JS 16<br/>Infrastruttura · Analytics"]
+    E --> H["🤖 AUTOMAZIONE AI<br/>Email · Report · Workflow"]
+    E --> I["📊 DATI REALI<br/>Tracciamento · ROI · Decisioni"]
 
-    F --> J[🔄 OTTIMIZZAZIONE CONTINUA]
+    F --> J["🔄 OTTIMIZZAZIONE CONTINUA"]
     G --> J
     H --> J
     I --> J
 
     J --> A
 
-    subgraph PORTFOLIO ["📁 CASI REALI SKALO (10 progetti documentati)"]
-        K[CiboCrudo Ecommerce Growth\nE-commerce · UX · Content · Exit]
-        L[Skalo CRM & Sales OS\nPipeline · Offerte · AI Support]
+    subgraph PORTFOLIO ["📁 CASI REALI SKALO — 10 progetti documentati"]
+        K["CiboCrudo Ecommerce Growth<br/>E-commerce · UX · Content · Exit"]
+        L["Skalo CRM & Sales OS<br/>Pipeline · Offerte · AI Support"]
     end
 
     E -.-> PORTFOLIO

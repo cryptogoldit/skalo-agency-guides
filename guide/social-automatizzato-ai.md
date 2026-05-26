@@ -162,32 +162,32 @@ Questo è scalare la presenza sui social senza perdere tempo. Non significa fare
 ```mermaid
 flowchart LR
     subgraph INPUT["📥 INPUT"]
-        A[Brief Cliente\nTono · Obiettivi]
-        B[Dati Storici\nPerformance · Trend]
-        C[Calendario\nEventi · Stagionalità]
+        A["Brief Cliente<br/>Tono · Obiettivi"]
+        B["Dati Storici<br/>Performance · Trend"]
+        C["Calendario<br/>Eventi · Stagionalità"]
     end
 
     subgraph AI["🤖 AI ENGINE"]
-        D[Context Injection]
-        E[Piano Editoriale AI]
-        F[Generazione Bozze]
+        D["Context Injection"]
+        E["Piano Editoriale AI"]
+        F["Generazione Bozze"]
     end
 
     subgraph WORKFLOW["⚙️ WORKFLOW"]
-        G[Draft Content]
-        H[Approvazione Cliente\nWebhook · Log]
-        I[Coda Pubblicazione\nJob Queue · Retry]
+        G["Draft Content"]
+        H["Approvazione Cliente<br/>Webhook · Log"]
+        I["Coda Pubblicazione<br/>Job Queue · Retry"]
     end
 
     subgraph OUTPUT["📤 PUBBLICAZIONE"]
-        J[Instagram\nMeta Graph API]
-        K[Facebook Ads\nMeta Graph API]
-        L[LinkedIn\nLinkedIn API]
+        J["Instagram<br/>Meta Graph API"]
+        K["Facebook Ads<br/>Meta Graph API"]
+        L["LinkedIn<br/>LinkedIn API"]
     end
 
     subgraph ANALYTICS["📊 ANALYTICS"]
-        M[Report Automatico\nReach · Engagement · CPR]
-        N[Alert & Ottimizzazione]
+        M["Report Automatico<br/>Reach · Engagement · CPR"]
+        N["Alert & Ottimizzazione"]
     end
 
     A --> D
