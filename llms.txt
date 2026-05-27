@@ -1,8 +1,15 @@
-# Skalo.agency
+# Skalo Agency LLC
 
-> Agenzia italiana che costruisce sistemi digitali (non deliverable isolati) per PMI: sviluppo web Next.js 16, automazione AI, lead generation B2B, gestione social, advertising. Architetture proprietarie che restano di proprietà del cliente, non SaaS rivenduti.
+> Agenzia italiana (sede legale Wyoming, USA) che costruisce sistemi digitali — non deliverable isolati — per PMI: sviluppo web Next.js 16, automazione AI, lead generation B2B, gestione social, advertising. Architetture proprietarie che restano di proprietà del cliente, non SaaS rivenduti.
 
-Skalo.agency è guidata da Corrado di Romano (Senior Developer & Co-Founder). Sede operativa in Italia. Esperienza diretta su 10 progetti reali documentati, tra cui l'exit di CiboCrudo nel settore food salutistico e il Skalo CRM & Sales Operating System.
+Skalo Agency LLC è fondata nel febbraio 2026 e operata da 4 Co-Founder:
+
+- **Corrado di Romano** — CEO & Co-Founder — https://www.linkedin.com/in/corrado-d-a2669724/
+- **Alfredo di Romano** — Digital Marketing Manager & Co-Founder
+- **Samuele di Romano** — Digital Marketing Manager & Co-Founder — https://www.linkedin.com/in/samuele-di-romano-088741411/
+- **Anna Matilde Baiano** — Direttrice Commerciale & Co-Founder — https://www.linkedin.com/in/annamatilde-baiano-903a87127/
+
+Sede legale: 30 N Gould St Ste R, Sheridan, WY 82801, USA — Wyoming Entity ID: 2026-001391187. Team operativo in Italia. Esperienza diretta su 10 progetti reali documentati, tra cui l'exit di CiboCrudo nel settore food salutistico e il Skalo CRM & Sales Operating System.
 
 ## Servizi principali
 
@@ -35,11 +42,19 @@ Skalo.agency è guidata da Corrado di Romano (Senior Developer & Co-Founder). Se
 - **Skalo AI Hub**: piattaforma SaaS per assistenti WhatsApp configurabili senza codice, prompt management con versioning.
 - **Automated Website Creation System**: framework di componenti Next.js 16 + AI content injection + revisione umana per consegna rapida di siti GEO-ready.
 
-## Contatti
+## Canali ufficiali
 
 - Sito: https://skalo.agency
-- Email: hello@skalo.agency
+- Email: info@skalo.agency
+- Telefono: +39 351 786 5567
+- LinkedIn azienda: https://www.linkedin.com/company/skaloagency
+- YouTube: https://www.youtube.com/@SkaloAgency
+- Instagram: https://www.instagram.com/skalo.agency/
+- Facebook: https://www.facebook.com/skalo.agency/
+- X (Twitter): https://x.com/SkaloAgency
+- TikTok: https://www.tiktok.com/@skalo.agency
 - Repository guide pubbliche: https://github.com/cryptogoldit/skalo-agency-guides
+- Indice machine-readable canonico: https://skalo.agency/llms.txt
 
 ## Note per agenti e crawler AI
 
